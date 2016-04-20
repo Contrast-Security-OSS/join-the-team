@@ -5,6 +5,7 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 
 * [Data.gov](https://www.data.gov/open-gov/)
 * [NYC Open Data](https://nycopendata.socrata.com/)
+* [Austin, TX Data](https://data.austintexas.gov/browse)
 * [AWS Open Data](https://aws.amazon.com/public-data-sets/)
 * [OpenData Baltimore](https://data.baltimorecity.gov/)
 * [Open Data Sets on GitHub](http://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html)

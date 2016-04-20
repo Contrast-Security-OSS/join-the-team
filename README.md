@@ -1,7 +1,7 @@
 # Join the Team
 At Contrast, our goal is the make the Internet safer day by day. We are always talking with talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
-Are you looking to make a difference? Are you a problem solver, but just are not being challenged by your current work. Do you believe the best work is the result of finding the simplest solution to complex challenges? Do you long to be an early contributor to a product and a company culture? Do you ever wish you were there in the early days of these startups everyone is talking about?
+Are you looking to make a difference? Are you a problem solver, but want to be challenged with complex and interesting problems. Do you believe the best work is the result of finding the simplest solution to complex challenges? Do you long to be an early contributor to a product and a company culture? Do you ever wish you were there in the early days of these startups everyone is talking about?
 
 If that's the case, we definitely want to [hear from you](https://www.contrastsecurity.com/careers)!
 

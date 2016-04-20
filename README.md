@@ -7,6 +7,8 @@ At Contrast, our goal is the make the Internet safer day by day. We are always t
 <img src="boh.jpg" alt="The view of our office from the water"></a>
 <a href="halloween.jpg" title="We love to have fun as a team.">
 <img src="halloween.jpg" alt="We love to have fun as a team."></a>
+<a href="boh2.jpg" title="We love to have fun as a team.">
+<img src="boh2.jpg" alt="We love to have fun as a team."></a>
 <a href="shane.jpg" title="We love to have fun as a team.">
 <img src="shane.jpg" alt="We love to have fun as a team."></a>
 

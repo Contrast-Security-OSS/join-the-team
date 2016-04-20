@@ -33,6 +33,7 @@ Everyone who comes to work in Engineering at Contrast submits a coding challenge
 Submitting a code challenge is simple and easy to do. Follow these steps below:
 
 * Start by forking this repository.
+* Pick a [Challenge](challenges.md) that's just right for you and your interests.
 * Commit your source with a fantastic README.md that anyone could use to get the project up and running.
 * Submit a pull request.
 

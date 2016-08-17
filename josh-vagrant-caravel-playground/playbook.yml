@@ -1,0 +1,31 @@
+---
+- hosts: all
+  remote_user: vagrant
+  become: yes
+  become_user: root
+  tasks:
+    - name: Make sure python-setuptools is up to date
+      yum: name=python-setuptools state=latest
+    - name: install all Caravel Dependencies needed with yum
+      yum: name={{item}} state=installed
+      with_items:
+        - epel-release
+        - gcc
+        - gcc-c++
+        - libffi-devel
+        - python-devel
+        - python-pip
+        - python-wheel
+        - openssl-devel
+    - name: install Caravel with pip
+      pip: name=caravel state=present
+    - name: copy the caravel_config file to the PYTHONPATH
+      command: cp /vagrant/caravel_config.py /usr/lib/python2.7/site-packages 
+    - name: Begin the Caravel server
+      shell: caravel runserver &
+
+
+
+      
+
+

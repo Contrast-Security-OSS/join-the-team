@@ -1,5 +1,5 @@
 # Join the Team
-At Contrast, our goal is the make the Internet safer day by day. We are always talking with talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
+At Contrast, our goal is the make the Internet safer day by day. We are always interested in meeting talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
 <a href="party.jpg" title="We love to have fun as a team.">
 <img src="party.jpg" alt="We love to have fun as a team."></a>
@@ -19,8 +19,9 @@ If that's the case, we definitely want to [hear from you](https://www.contrastse
 # Opportunities to Join the Team
 We are always looking for talented engineers who want to come work with us. We have opportunities in the following areas:
 
-* Front-End Development: Our UI is growing as our feature set expands. We are always interested in JavaScript enthusiasts.
-* Full-Stack Development: We've got data and have to scale to millions of transactions per minute. What's cooler than that?
+* Language Specific Agent Engineers: We have opportunities for engineers who want to get under the covers of languages such as Java, C#, NodeJS, Ruby and Python. 
+* Front-End Development: Our UI is growing as our feature set expands. We are always interested in JavaScript enthusiasts. Today we specialize in AngularJS and Cordova. Tomorrow, maybe a swap to EmberJS or ReactJS. 
+* Full-Stack Development: We've got data and have to scale to millions of transactions per minute. What's cooler than that? We love Java enthusiasts who like Spring, Hibernate, MySQL, Redis, ZooKeerp and tons of other fun technologieis that make up our stack.
 * Cloud Operations: Do you love automation? How about monitoring? Did we mention we scale our deployments to support millions of transactions?
 * Support Engineer: Are you a forensic specialist? Do you like helping people out and making their product experience better?
 
@@ -35,7 +36,7 @@ Submitting a code challenge is simple and easy to do. Follow these steps below:
 * Start by forking this repository.
 * Pick a [Challenge](challenges.md) that's just right for you and your interests.
 * Commit your source with a fantastic README.md that anyone could use to get the project up and running.
-* Submit a pull request.
+* Send us a link to your project.
 
 # Questions/Issues
 Sometimes our instructions are obvious to us, but confusing to others. No worries...in this case, feel free to submit an [issue or question](https://github.com/Contrast-Security-OSS/join-the-team/issues).

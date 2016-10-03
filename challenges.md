@@ -11,7 +11,7 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 * [Open Data Sets on GitHub](http://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html)
 * [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
 
-# Project #1: For the Front-End Enthusiast and JavaScript Afficianados
+# Project #1: For the Front-End Enthusiast and JavaScript Aficionados
 We would like you to pick a couple of data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set for visualization purposes.
 
 Create a simple interactive single web page application that leverages the data set. The data can be reorganized however you like for storage purposes, as long as your code can successfully integrated or make use of the data. We would like this small web application to leverage a single web page framework, preferrably AngularJS. 

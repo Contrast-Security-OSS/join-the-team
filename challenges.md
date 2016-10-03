@@ -83,8 +83,9 @@ As part of this project, we are looking for you to code the assignment from Proj
 | Ruby     | Rails                           | Active Record             |
 | Python   | Django                          | Django ORM or SQL Alchemy |
 
-What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. We want you to explore (3) data points specifically:
+What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. We want you to explore (2 out of 4) data points specifically:
 
+* Time the request from start to finish.
 * How much memory does a single page request take?
 * How many strings were created for a single page request?
 * How many assemblies/classes/methods were loaded (depends on language)?

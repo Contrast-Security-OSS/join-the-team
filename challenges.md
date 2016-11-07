@@ -83,11 +83,16 @@ As part of this project, we are looking for you to code the assignment from Proj
 | Ruby     | Rails                           | Active Record             |
 | Python   | Django                          | Django ORM or SQL Alchemy |
 
-What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. We want you to explore (2 out of 4) data points specifically:
+What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. 
+
+All projects need to count: 
+
+* How many string objects were created for a single page request or RESTful request?
+
+We then want you to explore (2 out of 3) data points specifically:
 
 * Time the request from start to finish.
 * How much memory does a single page request take?
-* How many strings were created for a single page request?
 * How many assemblies/classes/methods were loaded (depends on language)?
 
 Provide an interface that instruments the application to answer the questions above (preferrably both to console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 

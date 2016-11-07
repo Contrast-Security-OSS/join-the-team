@@ -19,10 +19,12 @@ If that's the case, we definitely want to [hear from you](https://www.contrastse
 # Opportunities to Join the Team
 We are always looking for talented engineers who want to come work with us. We have opportunities in the following areas:
 
-* Language Specific Agent Engineers: We have opportunities for engineers who want to get under the covers of languages such as Java, C#, NodeJS, Ruby and Python. 
+* Language Specific Agent Engineers: We have opportunities for engineers who want to get under the covers of languages such as Java, C#, NodeJS, PHP, Go, Ruby and Python. 
 * Front-End Development: Our UI is growing as our feature set expands. We are always interested in JavaScript enthusiasts. Today we specialize in AngularJS and Cordova. Tomorrow, maybe a swap to EmberJS or ReactJS. 
 * Full-Stack Development: We've got data and have to scale to millions of transactions per minute. What's cooler than that? We love Java enthusiasts who like Spring, Hibernate, MySQL, Redis, ZooKeerp and tons of other fun technologieis that make up our stack.
+* User Experience and Interaction Design: Designers make our product better and are valued immensely at Contrast. You have a lot of freedom and responsibility to navigate the future of our products.
 * Cloud Operations: Do you love automation? How about monitoring? Did we mention we scale our deployments to support millions of transactions?
+* Digital Content: Our product is becoming more complex and our capabilities are bountiful. We need someone with an eye for teaching and a pen/tablet for writing.
 * Support Engineer: Are you a forensic specialist? Do you like helping people out and making their product experience better?
 
 # Why Do We Have a Code Challenge?
@@ -33,9 +35,9 @@ Everyone who comes to work in Engineering at Contrast submits a coding challenge
 # How Do I Submit a Challenge?
 Submitting a code challenge is simple and easy to do. Follow these steps below:
 
-* Start by forking this repository.
 * Pick a [Challenge](challenges.md) that's just right for you and your interests.
 * Commit your source with a fantastic README.md that anyone could use to get the project up and running.
+* Try your hardest not to mention us as we value your privacy.
 * Send us a link to your project.
 
 # Questions/Issues

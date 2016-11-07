@@ -83,14 +83,48 @@ As part of this project, we are looking for you to code the assignment from Proj
 | Ruby     | Rails                           | Active Record             |
 | Python   | Django                          | Django ORM or SQL Alchemy |
 
-What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. We want you to explore (2 out of 4) data points specifically:
+What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. 
+
+All projects need to count: 
+
+* How many string objects were created for a single page request or RESTful request?
+
+We then want you to explore (2 out of 3) data points specifically:
 
 * Time the request from start to finish.
 * How much memory does a single page request take?
-* How many strings were created for a single page request?
 * How many assemblies/classes/methods were loaded (depends on language)?
 
 Provide an interface that instruments the application to answer the questions above (preferrably both to console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
 
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
 
+# Project #5: For the UX Engineer and Interaction Designer
+As part of this project, you have the opportunity to redesign our main Dashboard. You have free reign to visualize the data differently, do a cosmetic make-over, or experiment with restructuring the informational hierarchy. In addition, what might a new user see when first onboarded and no data yet exists?
+
+You can see an example of an existing user dashboard in the image below. We will give you a sample, read-only account for demonstration purposes when you are ready to give the project a go.
+
+<a href="dashboard.png" title="Quick view of a sample dashboard.">
+<img src="dashboard.png" alt="Quick view of a sample dashboard."></a>
+
+Since this is less a coding project and more a design project, feel free to put your project in a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc... 
+
+# Project #6: For the Digital Content Strategist
+Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.
+
+Our content has been built by members of our team to date. There hasn't been a sinlge professional author for any of our documents. We know our documentation could be vastly improved. 
+
+Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
+
+* Provide an editorial review of the [OpenDocs web site](https://docs.contrastsecurity.com). This can be a very free-form analysis of the site. It should be less than 1000 words. Make sure to include comments on the following:
+    - Searchability of Content
+    - Structure and Organization of Content
+    - Use of Images and Visualizations
+    - General Grammar and Content Value
+* Make (3) recommendations or improvements that would immediately add value to our user community.
+* Submit a writing sample. The writing sample could be completely unrelated to our content on OpenDocs. The writing sample should describe how a user of a web application accomplishes a particular task or set of tasks. It should include:
+    - Overview of the task from the end-user's perspective.
+    - Steps for the user to execute.
+    - Appropriate visual aids
+    - Tags for searchability and indexing
+    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)

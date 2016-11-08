@@ -27,6 +27,8 @@ We are always looking for talented engineers who want to come work with us. We h
 * Digital Content: Our product is becoming more complex and our capabilities are bountiful. We need someone with an eye for teaching and a pen/tablet for writing.
 * Support Engineer: Are you a forensic specialist? Do you like helping people out and making their product experience better?
 
+We also have both summer and year-round [internships](interns.md) for developers, designers, researchers and data scientists. 
+
 # Why Do We Have a Code Challenge?
 Our philosophy is that life is an open book. We aren't real big on having you come in and write answers on a white board or code in real-time on a Google Doc. We like to give all of our candidates the chance to be creative and comfortable when putting their best foot forward as part of applying to be on our team. Working on a coding challenge in the comfort of your home, at a neighborhood coffee shop or wherever is our preference. Discussion and collaboration of your project will give you a sense of what it's like to work with us since it is how we review and provide feedback on each other's work internally.
 

@@ -112,7 +112,7 @@ Since this is less a coding project and more a design project, feel free to put 
 # Project #6: For the Digital Content Strategist
 Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.
 
-Our content has been built by members of our team to date. There hasn't been a sinlge professional author for any of our documents. We know our documentation could be vastly improved. 
+Our content has been built by members of our team to date. There hasn't been a single professional author for any of our documents. We know our documentation could be vastly improved. 
 
 Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
 

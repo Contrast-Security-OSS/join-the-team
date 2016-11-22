@@ -45,6 +45,7 @@ We are looking for you to design an interactive web application that visualizes 
 * Filtering the data
 * Searching the data
 * Sorting/Ordering the data (Grid Control)
+* Interactions with the UI visualization should change the data set in the grid control and vice versa.
 
 From a development perspective, we are looking for:
 
@@ -100,14 +101,18 @@ Provide an interface that instruments the application to answer the questions ab
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
 
 # Project #5: For the UX Engineer and Interaction Designer
-As part of this project, you have the opportunity to redesign our main Dashboard. You have free reign to visualize the data differently, do a cosmetic make-over, or experiment with restructuring the informational hierarchy. In addition, what might a new user see when first onboarded and no data yet exists?
+As part of this project, you have the opportunity to redesign our main Dashboard. We are looking for you to provide (2) example designs. 
+
+The first design will play off our existing Dashboard page. You have free reign to visualize the data differently, do a cosmetic make-over, or experiment with restructuring the informational hierarchy. This is your chance to introduce entirely new widgets or components into the existing screen real estate. You might consider interactive visualizations, clustered modules that all work together, user personalization, etc... 
 
 You can see an example of an existing user dashboard in the image below. We will give you a sample, read-only account for demonstration purposes when you are ready to give the project a go.
 
 <a href="dashboard.png" title="Quick view of a sample dashboard.">
 <img src="dashboard.png" alt="Quick view of a sample dashboard."></a>
 
-Since this is less a coding project and more a design project, feel free to put your project in a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc... 
+The second design is intended to be a free form rewrite/redesign of our Dashboard. This is your chance to introduce an entirely different Dashboard concept. This concept can be far radically different than what we have to date. In fact, we encourage you to be creative and thought provoking. You should feel empowered to challenge our existing design as though no true constraints are in front of you.
+
+Since this is less a coding project and more a design project, feel free to put your project in a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc...
 
 # Project #6: For the Digital Content Strategist
 Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.

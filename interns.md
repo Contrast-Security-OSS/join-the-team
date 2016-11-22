@@ -59,3 +59,8 @@ We have multiple internship projects to work on:
 
 ### Data Science
 Data science is an area of growth and opportunity at Contrast. We have only begun to scratch the surface of data exploration. We are looking for like-minded people looking to explore our sources of data for key projects and initiatives. We would love candidates with coding skills in Python, R and/or SQL. Ideal candidates will have a strong academic background as well as technical skills including MapReduce programming, statistics or machine learning.
+
+## Applying to the Internship Program
+The fastest and easiest way to apply to our program is to send an email to [careers@contrastsecurity.com](mailto:careers@contrastsecurity.com). Attach a PDF version of your resume and a short cover letter as to which role you would like to apply. Make sure to put in the subject "Contrast Security Engineering Internship Program". Upon receiving your resume, someone on the team will get back to you quickly. 
+
+Our internship process is pretty straightforward. Every candidate interested in applying for the internship will also have to complete a project prior to an on-site or video (for those out-of-town) interview. We have several [projects](challenges.md) for candidates to consider. We recommend that most interns pick project number one.

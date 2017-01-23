@@ -4,10 +4,10 @@ Contrast offers a Silicon Valley like-experience from the 8th floor of the histo
 <a href="interns.jpg" title="We love to have fun as a team.">
 <img src="interns.jpg" width="30%" height="30%" alt="We love to have fun as a team.">
 </a>
-<a href="intern5.jpg" title="We love to have fun as a team.">
+<a href="interns5.jpg" title="We love to have fun as a team.">
 <img src="interns5.jpg" width="20%" height="20%" alt="We love to have fun as a team.">
 </a>
-<a href="intern6.jpg" title="We love to have fun as a team.">
+<a href="interns6.jpg" title="We love to have fun as a team.">
 <img src="interns6.jpg" width="30%" height="30%" alt="We love to have fun as a team.">
 </a>
 

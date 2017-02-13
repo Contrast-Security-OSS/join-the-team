@@ -29,6 +29,8 @@ From a development perspective, we are looking for
 * Implement a front-end router.
 * Code organization (Please no monolithic files)
 * Handle client-side state.
+* Cross-browser support (Chrome, FireFox, IE, etc.)
+* Page should be responsive
 * Include automated tests.
 * 100% automated: Should be simple as a clone and a single command to run.
 

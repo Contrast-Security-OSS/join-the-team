@@ -44,6 +44,7 @@ We would like you to pick a minimum of two data sets from [OpenData Baltimore](h
 We are looking for you to design an interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
 
 * CRUD against the data (Create Read Update Delete): Provide a means for all (4) operations in the User Interface.
+* Include a few complex database queries
 * Filtering the data
 * Searching the data
 * Sorting/Ordering the data (Grid Control)

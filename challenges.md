@@ -12,26 +12,23 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 * [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
 
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
-We would like you to pick a couple of data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set for visualization purposes.
+We would like you to pick a single data set or multiple data sets which can be combined into a single, shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-Create a simple interactive single web page application that leverages the data set. The data can be reorganized however you like for storage purposes, as long as your code can successfully integrated or make use of the data. We would like this small web application to leverage a single web page framework, preferrably AngularJS. 
+Create a simple single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. We recommend using a few different interactive visualizations that help to explore the data. The application working with the data set must be capable of the following functional needs at a minimum:
 
-We are looking for you to design an interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
-
-* Filtering the data
-* Searching the data
-* Sorting/Ordering the data (Grid Control)
-* Interact with the visualization via a mouse (Visualization)
+* Ability to filter, search, and sort the data
+* Interact with the visualizations with input controls and/or cursor
+* Implement a simple front-end router with a few different views or components.
 
 From a development perspective, we are looking for
 
-* Your code should be DRY, maintainable and readable.
-* Implement a front-end router.
-* Code organization (Please no monolithic files)
 * Handle client-side state.
 * Cross-browser support (Chrome, FireFox, IE, etc.)
-* Page should be responsive
-* Include automated tests.
+* Slow loading, long wait times, and other bad performance indications should be minimal.
+* Proper error handling and data scrubbing.
+* Responsive design should be considered.
+* Your code should be DRY, maintainable, readable, and organized.
+* Include automated tests where applicable.
 * 100% automated: Should be simple as a clone and a single command to run.
 
 Make sure to provide an amazing README that tells us how to setup your project.

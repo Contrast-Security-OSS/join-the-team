@@ -12,12 +12,13 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 * [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
 
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
-We would like you to pick a single data set or multiple data sets which can be combined into a single, shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
+We would like you to pick a single or multiple temporal data sets which can be combined into a single, shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-Create a simple single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. We recommend using a few different interactive visualizations that help to explore the data. The application working with the data set must be capable of the following functional needs at a minimum:
+Create a simple single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
 
-* Ability to filter, search, and sort the data
-* Interact with the visualizations with input controls and/or cursor
+* Ability to filter, search, and sort the data.
+* Interact with the visualizations with input controls and/or cursor.
+* At least one visualization that is time based and allows direct interaction to alter the date range (think click and drag).
 * Implement a simple front-end router with a few different views or components.
 
 From a development perspective, we are looking for

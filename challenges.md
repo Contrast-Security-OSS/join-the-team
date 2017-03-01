@@ -12,39 +12,38 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 * [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
 
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
-We would like you to pick a couple of data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set for visualization purposes.
+We would like for you to pick a single data set or multiple temporal data sets that can be combined into a shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-Create a simple interactive single web page application that leverages the data set. The data can be reorganized however you like for storage purposes, as long as your code can successfully integrated or make use of the data. We would like this small web application to leverage a single web page framework, preferrably AngularJS. 
+You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. You may use alternative SWF's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
 
-We are looking for you to design an interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
+* Ability to filter, search, and sort the data.
+* Interact with the visualizations with input controls and/or cursor.
+* At least one visualization that is time based and allows direct interaction to alter the date range and narrow the data set (think click and drag).
+* Implement a simple front-end router with a few different views or components.
 
-* Filtering the data
-* Searching the data
-* Sorting/Ordering the data (Grid Control)
-* Interact with the visualization via a mouse (Visualization)
+From a development perspective, we are looking for your code to:
 
-From a development perspective, we are looking for
-
-* Your code should be DRY, maintainable and readable.
-* Implement a front-end router.
-* Code organization (Please no monolithic files)
 * Handle client-side state.
-* Include automated tests.
+* Cross-browser support (Chrome, FireFox, IE, etc.)
+* Slow loading, long wait times, and other bad performance indications should be minimal.
+* Proper error handling and data scrubbing.
+* Responsive design should be considered.
+* Your code should be DRY, maintainable, readable, and organized.
+* Include automated tests where applicable.
 * 100% automated: Should be simple as a clone and a single command to run.
 
-Make sure to provide an amazing README that tells us how to setup your project.
+Make sure to provide an amazing README that tells us how to setup your project. The ideal project will consist of cloning your GitHub repo and running a command or two.
 
 # Project #2: For the Java Full Stack Engineers
 The goal of this assignment is to build a small web application that will demonstrate programming skills in Java (preferrably Spring MVC), building RESTful services, the build process, as well as front-end frameworks (preferrably AngularJS). You need to demonstrate an understanding of ORM (preferrably Hibernate) for persistence purposes with MySQL as your data store. We also want to see some basic test automation (Unit and Integration).
 
-We would like you to pick a minimum of two data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set in MySQL. The data sets should be selected carefully so that they share a foreign key relationship or two. We recommend that you design the schema and create automated scripts to easily bring the data into the database. This can be done via API calls to OpenData Baltimore, or simply package the data into a file as part of the Github project. 
+We would like you to pick a minimum of two data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set in MySQL. The data sets should be selected carefully so that they share a foreign key relationship or two. We ask that you design the schema and create automated scripts to easily bring the data into the database. This can be done via API calls to OpenData Baltimore, or simply package the data into a file as part of the Github project. 
 
-We are looking for you to design an interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
+We are looking for you to design an simple interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
 
 * CRUD against the data (Create Read Update Delete): Provide a means for all (4) operations in the User Interface.
-* Filtering the data
-* Searching the data
-* Sorting/Ordering the data (Grid Control)
+* Include a few complex database queries
+* Filtering and sorting the data (via a grid control)
 * Interactions with the UI visualization should change the data set in the grid control and vice versa.
 
 From a development perspective, we are looking for:

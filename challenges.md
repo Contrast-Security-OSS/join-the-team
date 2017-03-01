@@ -12,16 +12,16 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 * [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
 
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
-We would like you to pick a single or multiple temporal data sets which can be combined into a single, shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
+We would like for you to pick a single data set or multiple temporal data sets that can be combined into a shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-Create a simple single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
+You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. You may use alternative SWF's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
 
 * Ability to filter, search, and sort the data.
 * Interact with the visualizations with input controls and/or cursor.
-* At least one visualization that is time based and allows direct interaction to alter the date range (think click and drag).
+* At least one visualization that is time based and allows direct interaction to alter the date range and narrow the data set (think click and drag).
 * Implement a simple front-end router with a few different views or components.
 
-From a development perspective, we are looking for
+From a development perspective, we are looking for your code to:
 
 * Handle client-side state.
 * Cross-browser support (Chrome, FireFox, IE, etc.)
@@ -32,7 +32,7 @@ From a development perspective, we are looking for
 * Include automated tests where applicable.
 * 100% automated: Should be simple as a clone and a single command to run.
 
-Make sure to provide an amazing README that tells us how to setup your project.
+Make sure to provide an amazing README that tells us how to setup your project. The ideal project will consist of cloning your GitHub repo and running a command or two.
 
 # Project #2: For the Java Full Stack Engineers
 The goal of this assignment is to build a small web application that will demonstrate programming skills in Java (preferrably Spring MVC), building RESTful services, the build process, as well as front-end frameworks (preferrably AngularJS). You need to demonstrate an understanding of ORM (preferrably Hibernate) for persistence purposes with MySQL as your data store. We also want to see some basic test automation (Unit and Integration).

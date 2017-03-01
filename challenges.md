@@ -14,7 +14,7 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
 We would like for you to pick a single data set or multiple temporal data sets that can be combined into a shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferrably AngularJS. You may use alternative SWF's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
+You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferably AngularJS. You may use alternative SWF's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
 
 * Ability to filter, search, and sort the data.
 * Interact with the visualizations with input controls and/or cursor.

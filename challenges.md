@@ -71,19 +71,11 @@ The assignment involves identifying a data set that has multiple orientations/di
 
 # Project #4: Language Specialist (Agent Engineer)
 
-Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. 
+Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
-As part of this project, we are looking for you to code the assignment from Project #2 for the Full Stack Engineer position. However, depending on the language you are looking to break into, we want you to use the specific framework and ORM listed below. For all languages the data should be stored in MySQL. We also recommend you use AngularJS for the SPA JavaScript effort. Note: you only have to pick one language!
+For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
-| Language | framework                       | Use of ORM                |
-|----------|---------------------------------|---------------------------|
-| Java     | Spring                          | Hibernate                 |
-| .Net     | .Net Web API with SPA Interface | ADO.Net                   |
-| NodeJS   | ExpressJS                       | Sequelize                 |
-| Ruby     | Rails                           | Active Record             |
-| Python   | Django                          | Django ORM or SQL Alchemy |
-
-What's unique about this project is that we are looking for you to perform some additional instrumentation/profiling on your own application. Each of the languages above provides an interface to capture a bevy of instrumentation from your web application. 
+You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
 
 All projects need to count: 
 
@@ -96,6 +88,18 @@ We then want you to explore (2 out of 3) data points specifically:
 * How many assemblies/classes/methods were loaded (depends on language)?
 
 Provide an interface that instruments the application to answer the questions above (preferrably both to console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
+
+
+
+Note: you only have to pick one language and that language should be the one that you are applying for
+
+| Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
+|----------|---------------------------------|---------------------------|-----------------------------------|
+| Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
+| .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
+| NodeJS   | ExpressJS                       | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
+| Ruby     | Rails                           | Active Record             | [RaisGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
+| Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
 

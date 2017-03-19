@@ -80,6 +80,7 @@ You have the option of finding an Open Source web application leveraging one of 
 All projects need to count: 
 
 * How many string objects were created for a single page request or RESTful request?
+* Instrument the response to include a unique id
 
 We then want you to explore (2 out of 3) data points specifically:
 
@@ -87,9 +88,9 @@ We then want you to explore (2 out of 3) data points specifically:
 * How much memory does a single page request take?
 * How many assemblies/classes/methods were loaded (depends on language)?
 
-Provide an interface that instruments the application to answer the questions above (preferrably both to console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
+Provide an interface that instruments the application to answer the questions above (preferrably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
 
-
+Bonus: Show metrics on the page or a separate app/webpage
 
 Note: you only have to pick one language and that language should be the one that you are applying for
 

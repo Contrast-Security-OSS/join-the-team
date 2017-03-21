@@ -99,7 +99,7 @@ Note: you only have to pick one language and that language should be the one tha
 | Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
 | .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
 | NodeJS   | ExpressJS                       | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
-| Ruby     | Rails                           | Active Record             | [RaisGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
+| Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.

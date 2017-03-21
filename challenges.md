@@ -88,7 +88,7 @@ We then want you to explore (2 out of 3) data points specifically:
 * How much memory does a single page request take?
 * How many assemblies/classes/methods were loaded (depends on language)?
 
-Provide an interface that instruments the application to answer the questions above (preferrably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
+Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
 
 Bonus: Show metrics on the page or a separate app/webpage
 

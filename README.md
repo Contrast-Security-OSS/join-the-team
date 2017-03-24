@@ -48,4 +48,4 @@ Submitting a code challenge is simple and easy to do. Follow these steps below:
 * Send us a link to your project.
 
 # Questions/Issues
-Sometimes our instructions are obvious to us, but confusing to others. No worries...in this case, feel free to submit an [issue or question](https://github.com/Contrast-Security-OSS/join-the-team/issues).
+Sometimes our instructions are obvious to us, but might be confusing to others. No worries...in this case, feel free to submit an [issue or question](https://github.com/Contrast-Security-OSS/join-the-team/issues).

@@ -11,6 +11,9 @@ At Contrast, our goal is the make the Internet safer day by day. We are always i
 <img src="boh2.jpg" alt="We love to have fun as a team."></a>
 <a href="shane.jpg" title="We love to have fun as a team.">
 <img src="shane.jpg" alt="We love to have fun as a team."></a>
+<a href="team.jpg" title="We love to have fun as a team.">
+<img src="team.jpg" alt="We love to have fun as a team."></a>
+
 
 Are you looking to make a difference? Are you a problem solver, but want to be challenged with complex and interesting problems. Do you believe the best work is the result of finding the simplest solution to complex challenges? Do you long to be an early contributor to a product and a company culture? Do you ever wish you were there in the early days of these startups everyone is talking about?
 

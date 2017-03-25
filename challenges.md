@@ -58,16 +58,9 @@ Make sure to provide an amazing README that tells us how to setup your project.
 
 # Project #3: The Cloud Operations...Performance and Reliability
 
-AirBnB has open sourced an really interesting and exciting data visualization platform called Caravel. Rather than have you build a visualization platform, we would like to see how well you can leverage an Open Source project. Your goal will be to customize the project by selecting an alternative data set. In addition, you will need to automate the provisioning, installation and setup of the project. No need to do any custom programming. We are hoping it is limited to adding a data set and automating. You really shouldn’t have to fork the project.
+At Contrast we like to play hard, work hard, and automate our Saas environment end to end. We made this project so you can showcase your skills and give us a better idea of your individual talents. 
 
-[Click Here for the Link](https://github.com/airbnb/caravel)
-
-Identify a data set that would easily integrate with the Caravel application. (See their examples they use…try to find another data set that’s just as powerful as theirs)
-Build the project so it’s up and running with your selected data set
-Automate the project using a combination of Vagrant (virtualization purposes) and an automation language such as Ansible (provisioning purposes). Please use Ubuntu or Centos for the OS on Vagrant.
-The work needs to be committed on Github with an appropriate README that anyone could follow in order to setup the application. Inclusion of code comments, tests, etc… are helpful as well.
-
-The assignment involves identifying a data set that has multiple orientations/dimensions. It should have time-orientation, as well as other dimensions that would make the data exciting and fun to explore with a charting/visualization library. There are lots of data sets out there on the market to play around. Simple data sets that may look at population attributes, economic growth (GDP), literacy or health, etc…from a global perspective over time. There are other data sets that are security oriented such as [NVD](https://nvd.nist.gov/) or [CVE](https://cve.mitre.org/cve/). It does not have to be a security data set. It can be something completely different. The point is to find a data set to visualize in multiple dimensions or filters. Find a data set that is somewhat complex. 
+Take a look at this [project here](https://github.com/Contrast-Security-OSS/ops-hire-project). You will need to clone the repo and send it our way when you are finished.
 
 # Project #4: Language Specialist (Agent Engineer)
 

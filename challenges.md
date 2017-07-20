@@ -1,5 +1,5 @@
 # About the Code Challenges
-We have a couple of code challenges designed to give you the opportunity to showcase your skills. We love to see creativity, originality and simplicity of design. All of our projects involve some creativity, research, interest in data, automation and of course amazing instructions. Please make sure to write the most incredible and informative README.md files you can imagine.
+We have a couple of code challenges designed to give you the opportunity to showcase your skills. We love to see creativity, originality and simplicity of design. All of our projects involve some creativity, research, interest in data, automation and of course, amazing instructions. Please make sure to write the most incredible and informative README.md files you can imagine.
 
 There are tons of amazing open and free data sets to play with. Here are a few for inspiration:
 
@@ -14,7 +14,7 @@ There are tons of amazing open and free data sets to play with. Here are a few f
 # Project #1: For the Front-End Enthusiast and JavaScript Aficionados
 We would like for you to pick a single data set or multiple temporal data sets that can be combined into a shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
 
-You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferably AngularJS. You may use alternative SPA's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
+You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferably AngularJS. You may use alternative SPA's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs, at a minimum:
 
 * Ability to filter, search, and sort the data.
 * Interact with the visualizations with input controls and/or cursor.
@@ -24,7 +24,7 @@ You will need to create a single web page application that can be used to invest
 From a development perspective, we are looking for your code to:
 
 * Handle client-side state.
-* Cross-browser support (Chrome, FireFox, IE, etc.)
+* Cross-browser support (Chrome, FireFox, IE, etc.).
 * Slow loading, long wait times, and other bad performance indications should be minimal.
 * Proper error handling and data scrubbing.
 * Responsive design should be considered.
@@ -39,20 +39,20 @@ The goal of this assignment is to build a small web application that will demons
 
 We would like you to pick a minimum of two data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set in MySQL. The data sets should be selected carefully so that they share a foreign key relationship or two. We ask that you design the schema and create automated scripts to easily bring the data into the database. This can be done via API calls to OpenData Baltimore, or simply package the data into a file as part of the Github project. 
 
-We are looking for you to design an simple interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
+We are looking for you to design a simple interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
 
-* CRUD against the data (Create Read Update Delete): Provide a means for all (4) operations in the User Interface.
-* Include a few complex database queries
-* Filtering and sorting the data (via a grid control)
+* CRUD against the data (Create, Read, Update and Delete): Provide a means for all (4) operations in the user interface.
+* Include a few complex database queries.
+* Filtering and sorting the data (via a grid control).
 * Interactions with the UI visualization should change the data set in the grid control and vice versa.
 
 From a development perspective, we are looking for:
 
 * Your code should be DRY, maintainable and readable.
-* Proper Code organization (Please no monolithic files).
+* Proper code organization (please no monolithic files).
 * Organized relational data structure.
 * Include automated tests.
-* 100% automated: Should be simple as a clone and a few commands to run.
+* 100% automated: should be simple as a clone and a few commands to run.
 
 Make sure to provide an amazing README that tells us how to setup your project.
 
@@ -68,12 +68,12 @@ Our agent technology is the heart and soul of our product. Agent engineers need 
 
 For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
-You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
+You have the option of finding an Open Source web application leveraging one of the language frameworks below, depending on the team to which you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
 
 All projects need to count: 
 
 * How many string objects were created for a single page request or RESTful request?
-* Instrument the response to include a unique id
+* Instrument the response to include a unique id.
 
 We then want you to explore (2 out of 3) data points specifically:
 
@@ -83,9 +83,9 @@ We then want you to explore (2 out of 3) data points specifically:
 
 Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
 
-Bonus: Show metrics on the page or a separate app/webpage
+Bonus: Show metrics on the page or a separate app/webpage.
 
-Note: you only have to pick one language and that language should be the one that you are applying for
+Note: You only have to pick one language. For example, if you are applying to be a Language Specialist for Java, you should pick Java as the language for this exercise.
 
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
@@ -99,7 +99,7 @@ Make sure to provide an amazing README that tells us how to setup your project a
 
 # Project #5: For the UX Engineer and Interaction Designer
 
-Bad UX is everywhere. There are hundreds of touchpoints out there that could use a little UX love. We find ourselves frustrated by door handles, interfaces, iTunes, automated checkouts, road layouts...the list goes on. 
+Bad UX is everywhere. There are hundreds of touchpoints out there that could use a little UX love. We find ourselves frustrated by door handles, interfaces, iTunes, automated checkouts, road layouts... the list goes on. 
 
 For this project, you have the opportunity to take a relatively well-known digital site or application with a less-than-stellar customer experience, create a critique of the app, and present some possible solutions with at least one polished high-fidelity mockup. Woo! You have free reign to touch on the information architecture (IA), useful additional features, workflows, terminology, interactions, visual design, etc. 
 
@@ -117,14 +117,14 @@ Our content has been built by members of our team to date. There hasn't been a s
 Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
 
 * Provide an editorial review of the [OpenDocs web site](https://docs.contrastsecurity.com). This can be a very free-form analysis of the site. It should be less than 1000 words. Make sure to include comments on the following:
-    - Searchability of Content
-    - Structure and Organization of Content
-    - Use of Images and Visualizations
-    - General Grammar and Content Value
+    - Searchability of Content.
+    - Structure and Organization of Content.
+    - Use of Images and Visualizations.
+    - General Grammar and Content Value.
 * Make (3) recommendations or improvements that would immediately add value to our user community.
 * Submit a writing sample. The writing sample could be completely unrelated to our content on OpenDocs. The writing sample should describe how a user of a web application accomplishes a particular task or set of tasks. It should include:
     - Overview of the task from the end-user's perspective.
     - Steps for the user to execute.
-    - Appropriate visual aids
-    - Tags for searchability and indexing
-    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
+    - Appropriate visual aids.
+    - Tags for searchability and indexing.
+    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown).

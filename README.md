@@ -1,18 +1,10 @@
 # Join the Team
 At Contrast, our goal is the make the Internet safer day by day. We are always interested in meeting talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
-<a href="party.jpg" title="We love to have fun as a team.">
-<img src="party.jpg" alt="We love to have fun as a team."></a>
-<a href="boh.jpg" title="The view of our office from the water.">
-<img src="boh.jpg" alt="The view of our office from the water"></a>
-<a href="halloween.jpg" title="We love to have fun as a team.">
-<img src="halloween.jpg" alt="We love to have fun as a team."></a>
-<a href="boh2.jpg" title="We love to have fun as a team.">
-<img src="boh2.jpg" alt="We love to have fun as a team."></a>
-<a href="shane.jpg" title="We love to have fun as a team.">
-<img src="shane.jpg" alt="We love to have fun as a team."></a>
-<a href="jeff.jpg" title="We love to have fun as a team.">
-<img src="jeff.jpg" alt="We love to have fun as a team."></a>
+<a href="bohTower.jpg" title="We love to have fun as a team.">
+<img src="bohTower.jpg" alt="We love to have fun as a team."></a>
+<a href="escape1.png" title="We love to have fun as a team.">
+<img src="escape1.png" alt="We love to have fun as a team."></a>
 <a href="team.jpg" title="We love to have fun as a team.">
 <img src="team.jpg" alt="We love to have fun as a team."></a>
 

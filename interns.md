@@ -1,14 +1,14 @@
 ## The Contrast Internship Experience
 Contrast offers a Silicon Valley like-experience from the 8th floor of the historic Natty Boh brewery in Canton. Interns will feel right at home working side by side with a highly collaborative group of engineering professionals. Lunch is provided daily, as are snacks and drinks. You will get the chance to experience the fast pace of startup life.
 
+<a href="2017Interns.png" title="We love to have fun as a team.">
+<img src="2017Interns.png" alt="We love to have fun as a team.">
 <a href="interns.jpg" title="We love to have fun as a team.">
-<img src="interns.jpg" width="30%" height="30%" alt="We love to have fun as a team.">
+<img src="interns.jpg" alt="We love to have fun as a team.">
 </a>
-<a href="interns5.jpg" title="We love to have fun as a team.">
-<img src="interns5.jpg" width="20%" height="20%" alt="We love to have fun as a team.">
 </a>
 <a href="interns6.jpg" title="We love to have fun as a team.">
-<img src="interns6.jpg" width="30%" height="30%" alt="We love to have fun as a team.">
+<img src="interns6.jpg" alt="We love to have fun as a team.">
 </a>
 
 
@@ -16,8 +16,8 @@ Candidates joining the team will work day to day with full-time staff members on
 
 In our short, three year history, we've had great success with interns staying on with the team as full-time engineers.
 
-## 2016-2017 Opportunities
-Contrast Security has multiple internship opportunities for the 2016 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cyber-security, cloud-based software development and/or User Experience (Product Design). Three specific opportunities are available for candidates to work as:
+## 2017-2018 Opportunities
+Contrast Security has multiple internship opportunities for the 2017 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cyber-security, cloud-based software development and/or User Experience (Product Design). Three specific opportunities are available for candidates to work as:
 
 * User Experience (UX) Designer
 * Software Engineer
@@ -42,10 +42,9 @@ We have software engineering opportunities for computer science majors intereste
 
 We have multiple internship projects to work on:
 
-* Authoring automated bots in NodeJS, Java, Ruby and/or Python.
-* Authoring open source plugins for Contrast and popular 3rd party technologies in the agile and DevOps communities.
-* Contributing development to an internal Java/Springboot Micro-Service project called Crawler.
-* Prototyping either an IOS or Android version of Contrast.  
+* Authoring open source full-stack sample applications in either Java, NodeJS, Ruby, Python or GoLang.
+* Writing 3rd party integrations using our open source SDKs by language.
+* Exploring 3rd party libraries and SDKs from companies like Github, Slack, Atlassian, Splunk and SumoLogic
 
 ### Security Researcher
 Many of our engineers have a deep, rich experience in the field of application discovery. They have been part of research teams responsible for uncovering zero-day exploits. They have contributed extensive research to the AppSec and OWASP community about authoring secure and scalable web applications. 
@@ -62,5 +61,8 @@ Data science is an area of growth and opportunity at Contrast. We have only begu
 
 ## Applying to the Internship Program
 The fastest and easiest way to apply to our program is to send an email to [careers@contrastsecurity.com](mailto:careers@contrastsecurity.com). Attach a PDF version of your resume and a short cover letter as to which role you would like to apply. Make sure to put in the subject "Contrast Security Engineering Internship Program". Upon receiving your resume, someone on the team will get back to you quickly. 
+
+If your school is using Handshake, you can apply via this [link](https://app.joinhandshake.com/jobs/876217).
+
 
 Our internship process is pretty straightforward. Every candidate interested in applying for the internship will also have to complete a project prior to an on-site or video (for those out-of-town) interview. We have several [projects](challenges.md) for candidates to consider. We recommend that most interns pick project number one.

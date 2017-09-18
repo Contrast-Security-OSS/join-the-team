@@ -1,68 +1,110 @@
 # About the Code Challenges
-We have a couple of code challenges designed to give you the opportunity to showcase your skills. We love to see creativity, originality and simplicity of design. All of our projects involve some creativity, research, interest in data, automation and of course amazing instructions. Please make sure to write the most incredible and informative README.md files you can imagine.
+Welcome to the Contrast Code Challenges project page. Code challenges are an important part of our recruiting and hiring process. Every engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team.
 
-There are tons of amazing open and free data sets to play with. Here are a few for inspiration:
+The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model rather than in a conference room as part of a technical interview. While we give you ample time, each code challenge is designed to take no more than 4 to 8 hours. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design.
 
-* [Data.gov](https://www.data.gov/open-gov/)
-* [NYC Open Data](https://nycopendata.socrata.com/)
-* [Austin, TX Data](https://data.austintexas.gov/browse)
-* [AWS Open Data](https://aws.amazon.com/public-data-sets/)
-* [OpenData Baltimore](https://data.baltimorecity.gov/)
-* [Open Data Sets on GitHub](http://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html)
-* [Firebase Data Sets](https://www.firebase.com/docs/open-data/)
+Most importantly we do the challenge for you. Anyone submitting a code challenge, owns their own code, whether they put it on GitHub or another site. Our theory is that you are putting time into the interview process. We want you to get something out of the effort. What better than something to add to your portfolio?
 
-# Project #1: For the Front-End Enthusiast and JavaScript Aficionados
-We would like for you to pick a single data set or multiple temporal data sets that can be combined into a shareable data set for visualization purposes. Finding a perfect data set is not as important as how it is used.
+One last important item...please do not reference Contrast on your project as we do not want to introduce the possibility of someone plagiarizing your work. We rotate projects several times a year.
 
-You will need to create a single web page application that can be used to investigate your data set. The data can be reorganized and served however you like. We would like this web application to leverage a single web page framework, preferably AngularJS. You may use alternative SPA's like Ember or React. We recommend using a few different interactive visualizations that help to explore the data, but require at least one to explore the time dimension of the data. The application working with the data set must be capable of the following functional needs at a minimum:
+# Developer Project
+We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
 
-* Ability to filter, search, and sort the data.
-* Interact with the visualizations with input controls and/or cursor.
-* At least one visualization that is time based and allows direct interaction to alter the date range and narrow the data set (think click and drag).
-* Implement a simple front-end router with a few different views or components.
+You only have to complete one project. 
 
-From a development perspective, we are looking for your code to:
+## Option #1: Full Stack Web Application (UI and Service Layer Only Required)
+If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats and attacks. 
 
-* Handle client-side state.
-* Cross-browser support (Chrome, FireFox, IE, etc.)
-* Slow loading, long wait times, and other bad performance indications should be minimal.
-* Proper error handling and data scrubbing.
-* Responsive design should be considered.
-* Your code should be DRY, maintainable, readable, and organized.
-* Include automated tests where applicable.
-* 100% automated: Should be simple as a clone and a single command to run.
+As part of this project, we would like for you to build a simple, yet elegant application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). We ask that your UI contains at least:
 
-Make sure to provide an amazing README that tells us how to setup your project. The ideal project will consist of cloning your GitHub repo and running a command or two.
+* Map if you are visualizing geo-location data that can zoom in/out
+* Grid control (aka...a table of data) to present the data presented in the map
+* Search of data to change the presentation in the map and grid.
 
-# Project #2: For the Java Full Stack Engineers
-The goal of this assignment is to build a small web application that will demonstrate programming skills in Java (preferrably Spring MVC), building RESTful services, the build process, as well as front-end frameworks (preferrably AngularJS). You need to demonstrate an understanding of ORM (preferrably Hibernate) for persistence purposes with MySQL as your data store. We also want to see some basic test automation (Unit and Integration).
+It should be a clean UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
 
-We would like you to pick a minimum of two data sets from [OpenData Baltimore](https://data.baltimorecity.gov/) which can be combined into a single, shareable data set in MySQL. The data sets should be selected carefully so that they share a foreign key relationship or two. We ask that you design the schema and create automated scripts to easily bring the data into the database. This can be done via API calls to OpenData Baltimore, or simply package the data into a file as part of the Github project. 
+Feel free to use any of the these JavaScript frameworks:
+* Angular
+* React
+* Vue
+* Meteor
+* Ember 
 
-We are looking for you to design an simple interactive web application that visualizes the data. We recommend you present the data in a few formats visually via the combination of charts and grid controls. The application working with the data set must be capable of the following functional needs:
+We recommend that you identify one or more data feeds from one of these three sources.
 
-* CRUD against the data (Create Read Update Delete): Provide a means for all (4) operations in the User Interface.
-* Include a few complex database queries
-* Filtering and sorting the data (via a grid control)
-* Interactions with the UI visualization should change the data set in the grid control and vice versa.
+* Interesting [GitHub Project with Curated Threat Intelligence Feeds](https://github.com/hslatman/awesome-threat-intelligence)
+* [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds)
+* Choose or recommend an alternate data set.
 
-From a development perspective, we are looking for:
+Additional requirements as part of our craftsmanship initiative:
+* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
+* Unit tests
+* Integration tests of your service layer
+* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 
-* Your code should be DRY, maintainable and readable.
-* Proper Code organization (Please no monolithic files).
-* Organized relational data structure.
-* Include automated tests.
-* 100% automated: Should be simple as a clone and a few commands to run.
+## Option #2: Backend Developer Curious About Bots
+If you choose option 2, we would like for you to build a chatbot, specifically a [SlackBot](https://api.slack.com/bot-users). We would like for the SlackBot to share information about any of the security intelligence data feeds referenced below.
 
-Make sure to provide an amazing README that tells us how to setup your project.
+The SlackBoat should be meet the following requirements:
+* Integrate with Slack (no brainer)
+* Provide a list of commands
+* Retrieve answers to at least 4 unique commands (This is your chance to be creative!)
+* Give your SlackBot a cool name and avatar
 
-# Project #3: The Cloud Operations...Performance and Reliability
+We recommend that you identify one or more data feeds from one of these three sources.
+
+* Interesting [GitHub Project with Curated Threat Intelligence Feeds](https://github.com/hslatman/awesome-threat-intelligence)
+* [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds)
+* Choose or recommend an alternate data set.
+
+Additional requirements as part of our craftsmanship initiative:
+* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
+* Unit tests
+* Integration tests of your service layer
+* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
+
+# Site Reliability Engineering: The Cloud Operations...Performance and Reliability
 
 At Contrast we like to play hard, work hard, and automate our Saas environment end to end. We made this project so you can showcase your skills and give us a better idea of your individual talents. 
 
 Take a look at this [project here](https://github.com/Contrast-Security-OSS/ops-hire-project). You will need to clone the repo and send it our way when you are finished.
 
-# Project #4: Language Specialist (Agent Engineer)
+
+# UX/Designer Project: For the UX Engineer and Interaction Designer
+
+Bad UX is everywhere. There are hundreds of touchpoints out there that could use a little UX love. We find ourselves frustrated by door handles, interfaces, iTunes, automated checkouts, road layouts...the list goes on. 
+
+For this project, you have the opportunity to take a relatively well-known digital site or application with a less-than-stellar customer experience, create a critique of the app, and present some possible solutions with at least one polished high-fidelity mockup. Woo! You have free reign to touch on the information architecture (IA), useful additional features, workflows, terminology, interactions, visual design, etc. 
+
+We want to see your understanding and application of UX principles by demonstrating your process from concept to final solution.
+
+<a href="UX.png" title="UX"><img src="UX.png" alt="UX."></a>
+
+Upon completion of the above, please send us your collection of artifacts and feel free to use a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc. if you'd like. Happy designing!
+
+# UX/Docs Project: For the Digital Content Strategist
+Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.
+
+Our content has been built by members of our team to date. There hasn't been a single professional author for any of our documents. We know our documentation could be vastly improved. 
+
+Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
+
+* Provide an editorial review of the [OpenDocs web site](https://docs.contrastsecurity.com). This can be a very free-form analysis of the site. It should be less than 1000 words. Make sure to include comments on the following:
+    - Searchability of Content
+    - Structure and Organization of Content
+    - Use of Images and Visualizations
+    - General Grammar and Content Value
+* Make (3) recommendations or improvements that would immediately add value to our user community.
+* Submit a writing sample. The writing sample could be completely unrelated to our content on OpenDocs. The writing sample should describe how a user of a web application accomplishes a particular task or set of tasks. It should include:
+    - Overview of the task from the end-user's perspective.
+    - Steps for the user to execute.
+    - Appropriate visual aids
+    - Tags for searchability and indexing
+    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+# Alternate Developer Project (If the current project isn't your cup of tea...)
+
+We used to give this project to any agent developer candidate. While we are not retiring the project, we do want to mention that this project is a little more involved than the developer projects above. **This project takes roughly 10 to 20 hours to complete**. 
 
 Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
@@ -96,35 +138,3 @@ Note: you only have to pick one language and that language should be the one tha
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
-
-# Project #5: For the UX Engineer and Interaction Designer
-
-Bad UX is everywhere. There are hundreds of touchpoints out there that could use a little UX love. We find ourselves frustrated by door handles, interfaces, iTunes, automated checkouts, road layouts...the list goes on. 
-
-For this project, you have the opportunity to take a relatively well-known digital site or application with a less-than-stellar customer experience, create a critique of the app, and present some possible solutions with at least one polished high-fidelity mockup. Woo! You have free reign to touch on the information architecture (IA), useful additional features, workflows, terminology, interactions, visual design, etc. 
-
-We want to see your understanding and application of UX principles by demonstrating your process from concept to final solution.
-
-<a href="UX.png" title="UX"><img src="UX.png" alt="UX."></a>
-
-Upon completion of the above, please send us your collection of artifacts and feel free to use a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc. if you'd like. Happy designing!
-
-# Project #6: For the Digital Content Strategist
-Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.
-
-Our content has been built by members of our team to date. There hasn't been a single professional author for any of our documents. We know our documentation could be vastly improved. 
-
-Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
-
-* Provide an editorial review of the [OpenDocs web site](https://docs.contrastsecurity.com). This can be a very free-form analysis of the site. It should be less than 1000 words. Make sure to include comments on the following:
-    - Searchability of Content
-    - Structure and Organization of Content
-    - Use of Images and Visualizations
-    - General Grammar and Content Value
-* Make (3) recommendations or improvements that would immediately add value to our user community.
-* Submit a writing sample. The writing sample could be completely unrelated to our content on OpenDocs. The writing sample should describe how a user of a web application accomplishes a particular task or set of tasks. It should include:
-    - Overview of the task from the end-user's perspective.
-    - Steps for the user to execute.
-    - Appropriate visual aids
-    - Tags for searchability and indexing
-    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)

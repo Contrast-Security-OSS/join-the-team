@@ -1,11 +1,11 @@
 # About the Code Challenges
-Welcome to the Contrast Code Challenges project page. Code challenges are an important part of the recruiting and hiring process at Contrast. Every engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team.
+Welcome to the Contrast Code Challenges project page. Code challenges are an important part of our recruiting and hiring process. Every engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team.
 
-The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model. The code challenge gives you a chance to demonstrate your creativity over a couple of days, rather than in a conference room as part of a technical interview. While we give you ample time, each code challenge is designed to take no more than 4 to 8 hours. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design. 
+The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model rather than in a conference room as part of a technical interview. While we give you ample time, each code challenge is designed to take no more than 4 to 8 hours. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design.
 
 Most importantly we do the challenge for you. Anyone submitting a code challenge, owns their own code, whether they put it on GitHub or another site. Our theory is that you are putting time into the interview process. We want you to get something out of the effort. What better than something to add to your portfolio?
 
-One last important item...please do not reference Contrast on your project as we do not want to introduce the possibility of someone plagiarizing your work. We rotate projects about 1-2 times a year.
+One last important item...please do not reference Contrast on your project as we do not want to introduce the possibility of someone plagiarizing your work. We rotate projects several times a year.
 
 # Developer Project
 We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
@@ -21,9 +21,9 @@ As part of this project, we would like for you to build a simple, yet elegant ap
 * Grid control (aka...a table of data) to present the data presented in the map
 * Search of data to change the presentation in the map and grid.
 
-It should be a clean, slick UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
+It should be a clean UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
 
-Feel free to use any of the these acceptable JavaScript frameworks:
+Feel free to use any of the these JavaScript frameworks:
 * Angular
 * React
 * Vue

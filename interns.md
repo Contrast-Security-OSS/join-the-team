@@ -1,5 +1,5 @@
 ## The Contrast Internship Experience
-Contrast offers a Silicon Valley like-experience from the 8th floor of the historic Natty Boh brewery in Canton. Interns will feel right at home working side by side with a highly collaborative group of engineering professionals. Lunch is provided daily, as are snacks and drinks. You will get the chance to experience the fast pace of startup life.
+Contrast offers a Silicon Valley like-experience from the 8th floor of the historic [Natty Boh brewery](https://stackoverflow.com/jobs/companies/contrast-security) in Canton, a young budding startup community on the north side of Baltimore, Maryland. Interns will feel right at home working side by side with a highly collaborative group of engineering professionals. Lunch is provided daily, as are snacks and drinks. You will get the chance to experience the fast pace of startup life.
 
 <a href="2017Interns.png" title="We love to have fun as a team.">
 <img src="2017Interns.png" alt="We love to have fun as a team.">
@@ -12,9 +12,7 @@ Contrast offers a Silicon Valley like-experience from the 8th floor of the histo
 </a>
 
 
-Candidates joining the team will work day to day with full-time staff members on one to two specific projects over the course of their internship. They will participate in our daily, agile exercises, as well as our show and tell sessions every two weeks. They will be able to either add materials to an external portfolio or Github site demonstrating their work. 
-
-In our short, three year history, we've had great success with interns staying on with the team as full-time engineers.
+Our internship program has been highly successful over our 4 year history with members of each class getting the opportunity to move onto the team in a full-time capacity upon graduation. The internship program is divided into 3 independent 1-month efforts. We have 4 spots for the 2018 internship program. Each month of the program, an intern will be paired with a member of the engineering team as their mentor. Over the course of the internship, each intern will have (3) mentors guiding the entire experience. 
 
 ## 2017-2018 Opportunities
 Contrast Security has multiple internship opportunities for the 2017 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cyber-security, cloud-based software development and/or User Experience (Product Design). Three specific opportunities are available for candidates to work as:
@@ -38,13 +36,18 @@ We have multiple internship projects to work on:
 * Work on OpenDocs imaging
 
 ### Software Engineer
-We have software engineering opportunities for computer science majors interested in working on both web-based applications, RESTful services and software build system plugins.
+Our software engineering interns go through an elaborate, yet fund 3-month program with an emphasis of preparing you for a career in agile software development. Below is a breakdown of the experience month by month.
 
-We have multiple internship projects to work on:
+**Month #1: Open Source and Integrations**
+This past year's interns had the opportunity to work on a purposely, vulnerable Python web application called [Djangoat](https://github.com/Contrast-Security-OSS/DjanGoat). The [entire team](https://github.com/Contrast-Security-OSS/DjanGoat/blob/master/docs/acknowledgements.md) worked together to build the application in agile fashion starting with a CI build pipeline, dockerizing the deployment and publishing the project to GitHub. In year's past, our interns worked on various 3rd party plugins and integrations posted to our GitHub site. 
 
-* Authoring open source full-stack sample applications in either Java, NodeJS, Ruby, Python or GoLang.
-* Writing 3rd party integrations using our open source SDKs by language.
-* Exploring 3rd party libraries and SDKs from companies like Github, Slack, Atlassian, Splunk and SumoLogic
+This first month is intended to help our interns get comfortable working in a collaborative, agile development environment.
+
+Month #2: Contrast Product/Feature Development
+During the mid-point of the internship, we have our interns pair with members of the engineering team to work on one or more features that will be deployed in the product. This gives the engineer the chance to build a feature used by our customers, as well as have the opportunity to work in a continuous delivery environment.
+
+Month #3: Shark Tank Project
+This past summer we had the great experience of having our interns meet with members of our board of directors (our VC, our CEO and our co-founder) in a [shark tank format](https://twitter.com/hashtag/ContrastSharkTank?src=hash). Each member of the intern class prepared "a pitch" in the form of a new feature, new business idea or new service. The winning shark tank project was then selected as the core project for the third month.
 
 ### Security Researcher
 Many of our engineers have a deep, rich experience in the field of application discovery. They have been part of research teams responsible for uncovering zero-day exploits. They have contributed extensive research to the AppSec and OWASP community about authoring secure and scalable web applications. 

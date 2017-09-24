@@ -15,7 +15,7 @@ Contrast offers a Silicon Valley like-experience from the 8th floor of the histo
 Our internship program has been highly successful over our 4 year history with members of each class getting the opportunity to move onto the team in a full-time capacity upon graduation. The internship program is divided into 3 independent 1-month efforts. We have 4 spots for the 2018 internship program. Each month of the program, an intern will be paired with a member of the engineering team as their mentor. Over the course of the internship, each intern will have (3) mentors guiding the entire experience. 
 
 ## 2017-2018 Opportunities
-Contrast Security has multiple internship opportunities for the 2017 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cyber-security, cloud-based software development and/or User Experience (Product Design). Three specific opportunities are available for candidates to work as:
+Contrast Security has multiple internship opportunities for the 2017-2018 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cyber-security, cloud-based software development and/or User Experience (Product Design). Three specific opportunities are available for candidates to work as:
 
 * User Experience (UX) Designer
 * Software Engineer

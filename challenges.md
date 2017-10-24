@@ -45,7 +45,7 @@ Additional requirements as part of our craftsmanship initiative:
 ## Option #2: Backend Developer Curious About Bots
 If you choose option 2, we would like for you to build a chatbot, specifically a [SlackBot](https://api.slack.com/bot-users). We would like for the SlackBot to share information about any of the security intelligence data feeds referenced below.
 
-The SlackBoat should be meet the following requirements:
+The SlackBot should be meet the following requirements:
 * Integrate with Slack (no brainer)
 * Provide a list of commands
 * Retrieve answers to at least 4 unique commands (This is your chance to be creative!)

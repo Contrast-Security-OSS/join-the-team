@@ -106,35 +106,49 @@ Candidates interested in becoming our first digital content strategist, we would
 
 We used to give this project to any agent developer candidate. While we are not retiring the project, we do want to mention that this project is a little more involved than the developer projects above. **This project takes roughly 10 to 20 hours to complete**. 
 
-Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
+Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful, you must be willing to "hack" the language in which you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
-For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
+For this project, we are asking that you build the beginnings of a language-based agent. The agent will simply need to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
 You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
 
-All projects need to count: 
+## Requirements
 
-* How many string objects were created for a single page request or RESTful request?
-* Instrument the response to include a unique id
+Be sure to provide an amazing README that tells us how to set up your project and turn on the instrumentation.
 
-We then want you to explore (2 out of 3) data points specifically:
+In the following lists, each requirement pertains to the handling/processing, from start to finish, of each web application request (for example, a single page request, or a RESTful request).
 
-* Time the request from start to finish.
-* How much memory does a single page request take?
-* How many assemblies/classes/methods were loaded (depends on language)?
+At a minimum, your project must:
 
-Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
+* Count the number of string objects created.
+* Modify the response to include a unique identifier (for example, a UUID).
 
-Bonus: Show metrics on the page or a separate app/webpage
+Your project must also answer at least two (2) out of the three (3) following questions:
 
-Note: you only have to pick one language and that language should be the one that you are applying for
+* How much wall-clock time was taken?
+* How much memory was used?
+* How many assemblies/classes/methods were loaded?  (Note: This depends on language.)
 
-| Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
+## Results
+
+Provide your results via at least one of the following interfaces:
+
+* HTTP or REST endpoint
+* console (standard output/error)
+* log file
+
+Ideally, your project will allow the user specify the interface as part of the startup of the application, for example, via command-line arguments like {{-javaagent:...=interface=console}} for a Java agent.
+
+**Bonus**: Show metrics on the page or a separate app/webpage.
+
+## Language Frameworks
+
+You only need to pick one language, and that language should be the one for which you are applying, chosen from the following table:
+
+| Language | Framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
 | Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
 | .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
 | NodeJS   | ExpressJS                       | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
-
-Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.

@@ -66,17 +66,30 @@ Provide an interface that instruments the application to answer the questions ab
 
 Bonus: Show metrics on the page or a separate app/webpage
 
-Note: you only have to pick one language and that language should be the one that you are applying for
+Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for .NET. 
 
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
 | Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
-| .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
+| .NET     | .NET WebForms                   | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
 | NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
 Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
+
+### .NET Instrumentation Engineer Project
+
+Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. We ask that .NET Instrumentation Engineer applicants instead implement an [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule). 
+
+Project Requirements
+* Add new content to HTML pages to display information gathered by your HttpModule.
+* Measure the total time spent processing the request. 
+* Measure the time spent by only the IHttpHandler for the request.
+* Measure the size of the response body in bytes. Calculate the minimum, average, and maximum responses seen so far. 
+* Provide a script to install your IHttpModule to all applications hosted on IIS.
+
+Make sure to provide an amazing README that tells us how to build your project and run your deployment script.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

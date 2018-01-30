@@ -71,7 +71,7 @@ Note: you only have to pick one language and that language should be the one tha
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
 | Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
-| .NET     | .NET Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
+| .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
 | NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |

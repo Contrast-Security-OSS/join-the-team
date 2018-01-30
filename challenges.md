@@ -7,12 +7,12 @@ Most importantly we do the challenge for you. Anyone submitting a code challenge
 
 One last important item...please do not reference Contrast on your project as we do not want to introduce the possibility of someone plagiarizing your work. We rotate projects several times a year.
 
-# Developer Project
+# Developer Projects
 We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
 
 You only have to complete one project. 
 
-## Option #1: Full Stack Web Application (UI and Service Layer Only Required)
+## Full Stack Web Application (UI and Service Layer Only Required)
 If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats and attacks. 
 
 As part of this project, we would like for you to build a simple, yet elegant application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). We ask that your UI contains at least:
@@ -42,26 +42,42 @@ Additional requirements as part of our craftsmanship initiative:
 * Integration tests of your service layer
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 
-## Option #2: Backend Developer Curious About Bots
-If you choose option 2, we would like for you to build a chatbot, specifically a [SlackBot](https://api.slack.com/bot-users). We would like for the SlackBot to share information about any of the security intelligence data feeds referenced below.
+## Language Agent Developer Project 
+Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
-The SlackBoat should be meet the following requirements:
-* Integrate with Slack (no brainer)
-* Provide a list of commands
-* Retrieve answers to at least 4 unique commands (This is your chance to be creative!)
-* Give your SlackBot a cool name and avatar
+ **This project takes roughly 10 to 20 hours to complete**. 
 
-We recommend that you identify one or more data feeds from one of these three sources.
+For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
-* Interesting [GitHub Project with Curated Threat Intelligence Feeds](https://github.com/hslatman/awesome-threat-intelligence)
-* [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds)
-* Choose or recommend an alternate data set.
+You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
 
-Additional requirements as part of our craftsmanship initiative:
-* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
-* Unit tests
-* Integration tests of your service layer
-* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
+All projects need to count: 
+
+* How many string objects were created for a single page request or RESTful request?
+* Instrument the response to include a unique id
+
+We then want you to explore (2 out of 3) data points specifically:
+
+* Time the request from start to finish.
+* How much memory does a single page request take?
+* How many assemblies/classes/methods were loaded (depends on language)?
+
+Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
+
+Bonus: Show metrics on the page or a separate app/webpage
+
+Note: you only have to pick one language and that language should be the one that you are applying for
+
+| Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
+|----------|---------------------------------|---------------------------|-----------------------------------|
+| Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
+| .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
+| NodeJS   | ExpressJS                       | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
+| Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
+| Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
+
+Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
+
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability
 
@@ -102,39 +118,4 @@ Candidates interested in becoming our first digital content strategist, we would
     - Tags for searchability and indexing
     - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-# Alternate Developer Project (If the current project isn't your cup of tea...)
 
-We used to give this project to any agent developer candidate. While we are not retiring the project, we do want to mention that this project is a little more involved than the developer projects above. **This project takes roughly 10 to 20 hours to complete**. 
-
-Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
-
-For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We often recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
-
-You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position. 
-
-All projects need to count: 
-
-* How many string objects were created for a single page request or RESTful request?
-* Instrument the response to include a unique id
-
-We then want you to explore (2 out of 3) data points specifically:
-
-* Time the request from start to finish.
-* How much memory does a single page request take?
-* How many assemblies/classes/methods were loaded (depends on language)?
-
-Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log). Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application. 
-
-Bonus: Show metrics on the page or a separate app/webpage
-
-Note: you only have to pick one language and that language should be the one that you are applying for
-
-| Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
-|----------|---------------------------------|---------------------------|-----------------------------------|
-| Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
-| .Net     | .Net Web API with SPA Interface | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
-| NodeJS   | ExpressJS                       | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
-| Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
-| Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
-
-Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.

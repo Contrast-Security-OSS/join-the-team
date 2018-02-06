@@ -45,7 +45,7 @@ Additional requirements as part of our craftsmanship initiative:
 ## Language Agent Developer Project 
 Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
- **This project takes roughly 10 to 20 hours to complete**. 
+ **This project takes can take upwards of 8-10 hours**. 
 
 For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
@@ -71,7 +71,6 @@ Note: you only have to pick one language and that language should be the one tha
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
 | Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
-| .NET     | .NET WebForms                   | ADO.Net                   | [WebGoat](https://github.com/rapPayne/webgoat.net) |
 | NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
@@ -80,16 +79,21 @@ Make sure to provide an amazing README that tells us how to setup your project a
 
 ### .NET Instrumentation Engineer Project
 
-Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. We ask that .NET Instrumentation Engineer applicants instead implement an [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule). 
+We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2018 required project.
 
-Project Requirements
+Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. Therefore, we ask that candidates interested in working on our .NET agent instead implement an [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule). 
+
+The following project requirements are listed below: 
 * Add new content to HTML pages to display information gathered by your HttpModule.
 * Measure the total time spent processing the request. 
 * Measure the time spent by only the IHttpHandler for the request.
 * Measure the size of the response body in bytes. Calculate the minimum, average, and maximum responses seen so far. 
 * Provide a script to install your IHttpModule to all applications hosted on IIS.
 
-Make sure to provide an amazing README that tells us how to build your project and run your deployment script.
+In addition, please make sure to do the following:
+* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) which is free for any Open Source project in GitHub
+* Automated test coverage
+* Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

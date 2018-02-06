@@ -79,7 +79,7 @@ Make sure to provide an amazing README that tells us how to setup your project a
 
 ### .NET Instrumentation Engineer Project
 
-We have a very specific project just for .Net agent engineers. For any applicant wanting to work on our .Net platform, this project is the 2018 required project.
+We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2018 required project.
 
 Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. Therefore, we ask that candidates interested in working on our .NET agent instead implement an [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule). 
 
@@ -93,7 +93,7 @@ The following project requirements are listed below:
 In addition, please make sure to do the following:
 * Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) which is free for any Open Source project in GitHub
 * Automated test coverage
-* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
+* Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

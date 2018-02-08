@@ -75,7 +75,13 @@ Note: you only have to pick one language and that language should be the one tha
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
-Make sure to provide an amazing README that tells us how to setup your project and turn on the instrumentation.
+*Additional Requirements*
+* Unit tests
+* Integration tests of your service layer
+* Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. 
+* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
+Include the [Travis build badge](https://travis-ci.com/) in your README to show status.
+
 
 ### .NET Instrumentation Engineer Project
 

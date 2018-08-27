@@ -15,6 +15,8 @@ Our internship program has been highly successful over our 4+ year history with 
 
 The internship program is divided into 3 phases, with each phase lasting 3-4 weeks. We have 4-5 spots for the 2019 internship program. Each month of the program, an intern will be paired with a member of the engineering team as their mentor. Over the course of the internship, each intern will have (3) mentors guiding the entire experience. 
 
+Our internship runs from the beginning of June through mid-August. Any student available in May may start the program earlier and is encouraged. Due to the shortness of the program, we will not be able to accommodate any extended vacations.
+
 ## Summer 2019 Opportunities
 Contrast Security has multiple internship opportunities for the 2018-2019 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cloud-based software development, cyber-security and/or User Experience (Product Design). The specific opportunities are available for candidates to work as:
 
@@ -39,7 +41,7 @@ Once the team has defined their project scope and assigned resources, the majori
 **Phase #3: Open Source Development and Project Presentation**
 Every class in our 4+ year history of our summer internship program has produced an Open Source code artifact. Sometimes this happens at the beginning of the program, but more often than not it happens at the end of the program. Interns are expected to push one or more projects associated with their primary summer project to the Contrast Github site.
 
-In addition, before the summer is over, our interns present a summary presentation to the entire company. This usually takes place during the last week of the program and is followed by an Intern Appreciation Party.
+At the end of the internship the group presents their entire portfolio of work to all of engineering, members of the executive team and members of the Board of Directors. This usually takes place during the last week of the program and is followed by an Intern Appreciation Party.
 
 ### Security Researcher
 Many of our engineers have a deep, rich experience in the field of application discovery. They have been part of research teams responsible for uncovering zero-day exploits. They have contributed extensive research to the AppSec and OWASP community about authoring secure and scalable web applications. 

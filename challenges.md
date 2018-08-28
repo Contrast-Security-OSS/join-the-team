@@ -1,7 +1,7 @@
 # About the Code Challenges
 Welcome to the Contrast Code Challenges project page. Code challenges are an important part of our recruiting and hiring process. Every engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team.
 
-The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model rather than in a conference room as part of a technical interview. While we give you ample time, each code challenge is designed to take no more than 4 to 8 hours. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design.
+The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model rather than in a conference room as part of a technical interview. Be aware that each code challenge can take longer than a day to complete, hence we give you ample time to work it. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design.
 
 Most importantly we do the challenge for you. Anyone submitting a code challenge, owns their own code, whether they put it on GitHub or another site. Our theory is that you are putting time into the interview process. We want you to get something out of the effort. What better than something to add to your portfolio?
 
@@ -141,4 +141,55 @@ Candidates interested in becoming our first digital content strategist, we would
     - Tags for searchability and indexing
     - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
+# Developer Projects
+We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
+
+You only have to complete one project. 
+
+## Summer Internship in Engineering Interview Project
+Our summer internship program is designed to give rising seniors the opportunities to enhance their experience working with two or more software languages. We set the expectation that language specialization is a thing of the past. We want to encourage all candidates and future interns to become language polyglots.
+
+Most university programs believe in this philosophy as well. Many Computer Science programs provide foundational object-oriented programming in either C++ or Java. They offer complementary exposure to C. Some programs focus on Python and/or OCAML. 
+
+For our interview project, we would like for you to build a simple, yet elegant web application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). It should contain both a UI and a service layer. You will likely get the chance to work in 2 languages (JavaScript + Another Language).
+
+The project can take anywhere from 4 to 12 hours to complete. Note that the project isn't necessarily indicative of the work you would do during the internship. It's a simple project that any 3rd year CS major should be able to successfully complete with a little bit of free time. As the author of this project, you own the code and get to put it in your GitHub portfolio.
+
+**About the UI**
+
+We ask that your UI contains at least:
+
+* Map if you are visualizing geo-location data that can zoom in/out
+* Grid control (aka...a table of data) to present the data presented in the map
+* Search of data to change the presentation in the map and grid.
+
+It should be a clean UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
+
+Feel free to use any of the these JavaScript frameworks:
+* Angular
+* React
+* Vue
+* Meteor
+* Ember 
+
+**About the Service Layer**
+
+You can use any language you like for the service layer. It can be a simple REST interface or if you are really interested, build a GraphQL interface. Most submissions are written in either Java, Python, NodeJS, Ruby or GoLang. 
+
+**About Your Data Set**
+
+We recommend that you identify one or more data feeds from one of these three sources. You can simply store the data in a JSON file or even host it in a free service like Firebase or AWS Cognito. It's totally up to you.
+
+* Interesting [GitHub Project with Curated Threat Intelligence Feeds](https://github.com/hslatman/awesome-threat-intelligence)
+* [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds)
+* Choose or recommend an alternate data set.
+
+**Final Requirements**
+
+
+Additional requirements as part of our craftsmanship initiative:
+* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
+* Unit tests
+* Integration tests of your service layer
+* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 

@@ -141,7 +141,7 @@ Candidates interested in becoming our first digital content strategist, we would
     - Tags for searchability and indexing
     - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-## Summer Internship in Engineering Interview Project
+# Summer Internship in Engineering Interview Project
 Our summer internship program is designed to give rising seniors the opportunities to enhance their experience working with two or more software languages. We set the expectation that language specialization is a thing of the past. We want to encourage all candidates and future interns to become language polyglots.
 
 Most university programs believe in this philosophy as well. Many Computer Science programs provide foundational object-oriented programming in either C++ or Java. They offer complementary exposure to C. Some programs focus on Python and/or OCAML. 

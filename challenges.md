@@ -141,11 +141,6 @@ Candidates interested in becoming our first digital content strategist, we would
     - Tags for searchability and indexing
     - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
-# Developer Projects
-We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
-
-You only have to complete one project. 
-
 ## Summer Internship in Engineering Interview Project
 Our summer internship program is designed to give rising seniors the opportunities to enhance their experience working with two or more software languages. We set the expectation that language specialization is a thing of the past. We want to encourage all candidates and future interns to become language polyglots.
 

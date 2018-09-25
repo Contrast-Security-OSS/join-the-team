@@ -1,8 +1,8 @@
 # Join the Team
 At Contrast, our goal is the make the Internet safer day by day. We are always interested in meeting talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
-<a href="bohTower.jpg" title="We love to have fun as a team.">
-<img src="bohTower.jpg" alt="We love to have fun as a team."></a>
+<a href="bw.jpg" title="We love to have fun as a team.">
+<img src="bw.jpg" alt="We love to have fun as a team."></a>
 <a href="team_2018.jpg" title="We love to have fun as a team.">
 <img src="team_2018.jpg" alt="We love to have fun as a team."></a>
 <a href="escape1.png" title="We love to have fun as a team.">

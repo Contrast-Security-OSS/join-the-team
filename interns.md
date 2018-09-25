@@ -11,21 +11,14 @@
 </a>
 </a>
 
-Our internship program has been highly successful over our 4+ year history with several members of each class receiving the opportunity to move onto the team in a full-time capacity upon graduation. The internship is optimal for rising seniors and/or December graduates specializing in Computer Science. 
+Our internship program has been highly successful over our 4+ year history with several members of each class receiving the opportunity to move onto the team in a full-time capacity upon graduation. The internship is optimal for rising seniors and/or December graduates majoring in Computer Science. 
 
 The internship program is divided into 3 phases, with each phase lasting 3-4 weeks. We have 4-5 spots for the 2019 internship program. Each month of the program, an intern will be paired with a member of the engineering team as their mentor. Over the course of the internship, each intern will have (3) mentors guiding the entire experience. 
 
 Our internship runs from the beginning of June through mid-August. Any student available in May may start the program earlier and is encouraged. Due to the shortness of the program, we will not be able to accommodate any extended vacations.
+ 
 
-## Summer 2019 Opportunities
-Contrast Security has multiple internship opportunities for the 2018-2019 academic calendar for part-time and full-time undergraduate or graduate students pursuing a post graduate career in cloud-based software development, cyber-security and/or User Experience (Product Design). The specific opportunities are available for candidates to work as:
-
-* Software Engineer
-* User Experience (UX) Designer
-* Security Researcher
-* Data Science
-
-### Software Engineering
+## About Our Internship
 Our software engineering interns go through an elaborate, yet fun 3-month program with an emphasis in preparation for a career in agile software development. Below is a breakdown of the experience month by month.
 
 **Phase #1: Software Design, Planning and Prototyping**
@@ -43,30 +36,6 @@ Every class in our 4+ year history of our summer internship program has produced
 
 At the end of the internship the group presents their entire portfolio of work to all of engineering, members of the executive team and members of the Board of Directors. This usually takes place during the last week of the program and is followed by an Intern Appreciation Party.
 
-### Security Researcher
-Many of our engineers have a deep, rich experience in the field of application discovery. They have been part of research teams responsible for uncovering zero-day exploits. They have contributed extensive research to the AppSec and OWASP community about authoring secure and scalable web applications. 
-
-We have multiple internship projects to work on:
-
-* Researching the latest Common Vulnerability and Exposures (CVEs) for impact and exposure.
-* Penetration testing exercise against Contrast’s main web application.
-* Evaluation of multiple, popular open source projects leveraging Contrast’s IAST and RASP engine modes for analyzing exposure to vulnerabilities and attacks.
-
-### UX Designer
-Our User Experience team is primarily responsible for designing and directing the front-end of our applications and key workflows our customers make use of when working on our products. This team performs a variety of tasks such as front-end mock-ups and wireframes, customer research, accessibility research, A/B testing, as well as CSC/JavaScript library research.
-
-We have multiple internship projects to work on:
-
-* Designing high-fidelity mocks-ups and designs of a mobile version of our product.
-* Multiple usability studies
-* Customer research project about upcoming features
-* Other wireframe and design projects for upcoming features
-* General QA Testing and Verification of New Features
-* Design 1 cartoon cat for [OpenCats](http://contrast-security-oss.github.io/meow/index.html) “Meow Project”
-* Work on OpenDocs imaging
-
-### Data Science
-Data science is an area of growth and opportunity at Contrast. We have only begun to scratch the surface of data exploration. We are looking for like-minded people looking to explore our sources of data for key projects and initiatives. We would love candidates with coding skills in Python, R and/or SQL. Ideal candidates will have a strong academic background as well as technical skills including MapReduce programming, statistics or machine learning.
 
 ## Applying to the Internship Program
 The fastest and easiest way to apply to our program is to apply online [here](https://jobs.lever.co/contrastsecurity/ee23b08c-afe0-47d9-9811-f571eb63c82d). Attach a PDF version of your resume and a short cover letter as to which role you would like to apply. Make sure to put in the subject "Contrast Security Engineering Internship Program". Upon receiving your resume, someone on the team will get back to you quickly. 
@@ -74,10 +43,68 @@ The fastest and easiest way to apply to our program is to apply online [here](ht
 If your school is using Handshake, you can apply via this [link](https://app.joinhandshake.com/jobs/1750818) or feel free to use our link from [Lever](https://jobs.lever.co/contrastsecurity/ee23b08c-afe0-47d9-9811-f571eb63c82d).
 
 
-Our internship process is pretty straightforward. We start by reviewing your resume. Those resumes selected will then be contacted for an introductory phone call to talk about the program and answer any questions you may have about Contrast and/or the internship program. 
 
-Candidates selected to the next phase will be given the option of submitting a [projects](challenges.md) which they will have until the end of October to complete, or they could opt for the technical interview. While we do encourage candidates to work on the project, we understand that sometimes our academic schedules are too rigourous and thus a technical interview may all you can afford timewise. 
+## Interview Application Schedule
 
-Our goal is to wrap-up all interviews before late October. We will announce our 2018 class within the first two weeks of November.
+| Application Process                        | Dates         | Notes/Expectations                                                                                                                                                                                  |
+|--------------------------------------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Accepting Resumes                          | 8/31 - 10/19  | We can accept resumes via [Lever](https://jobs.lever.co/contrastsecurity/ee23b08c-afe0-47d9-9811-f571eb63c82d) or [HandShake](https://app.joinhandshake.com/jobs/1750818).                          |
+| Informational Calls and Career Fair Visits | 9/7 - 9/30    | Contrast engineers will be available for information calls for those students unable to meet with us at the various career fairs we attended this fall.                                             |
+| Application Projects Due                   | 10/24         | See project details below.                                                                                                                                                                          |
+| Interviews                                 | 10/22 - 10/30 | Once your project is submitted, we will schedule an interview to review your project. The interview will take place online via video or in person for those local and able to come into the office. |
+| Offer Letters Sent Out                     | 11/5 - 11/9   | We will announce our class.                                                                                                                                                                         |
+
+# Summer Internship Interview Project
+Our summer internship program is designed to give rising seniors the opportunities to enhance their experience working with two or more software languages. We set the expectation that language specialization is a thing of the past. We want to encourage all candidates and future interns to become language polyglots.
+
+Most university programs believe in this philosophy as well. Many Computer Science programs provide foundational object-oriented programming in either C++ or Java. They offer complementary exposure to C. Some programs focus on Python and/or OCAML. 
+
+For our interview project, we would like for you to build a simple, yet elegant web application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). It should contain both a UI and a service layer. You will likely get the chance to work in 2 languages (JavaScript + Another Language).
+
+The project can take anywhere from 4 to 12 hours to complete. Note that the project isn't necessarily indicative of the work you would do during the internship. It's a simple project that any 3rd year CS major should be able to successfully complete with a little bit of free time. As the author of this project, you own the code and get to put it in your GitHub portfolio.
+
+**About the UI**
+
+We ask that your UI contains at least:
+
+* Map if you are visualizing geo-location data that can zoom in/out
+* Grid control (aka...a table of data) to present the data presented in the map
+* Search of data to change the presentation in the map and grid.
+
+It should be a clean UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
+
+Feel free to use any of the these JavaScript frameworks:
+* Angular
+* React
+* Vue
+* Meteor
+* Ember 
+
+**About the Service Layer**
+
+You can use any language you like for the service layer. It can be a simple REST interface or if you are really interested, build a GraphQL interface. Most submissions are written in either Java, Python, NodeJS, Ruby or GoLang. 
+
+**About Your Data Set**
+
+We recommend that you identify one or more data feeds from one of these three sources. You can simply store the data in a JSON file or even host it in a free service like Firebase or AWS Cognito. It's totally up to you.
+
+* Interesting [GitHub Project with Curated Threat Intelligence Feeds](https://github.com/hslatman/awesome-threat-intelligence)
+* [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds)
+* Choose or recommend an alternate data set.
+
+**Final Requirements**
+
+Additional requirements as part of our craftsmanship initiative:
+* Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
+* Unit tests
+* Integration tests of your service layer
+* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
+
+
+
+
+
+
+
 
 

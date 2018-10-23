@@ -117,7 +117,7 @@ For this project, you have the opportunity to take a relatively well-known digit
 
 We want to see your understanding and application of UX principles by demonstrating your process from concept to final solution.
 
-<a href="UX.png" title="UX"><img src="UX.png" alt="UX."></a>
+<a href="images/UX.png" title="UX"><img src="images/UX.png" alt="UX."></a>
 
 Upon completion of the above, please send us your collection of artifacts and feel free to use a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc. if you'd like. Happy designing!
 

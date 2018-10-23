@@ -1,8 +1,8 @@
 # Join the Team
 At Contrast, our goal is the make the Internet safer day by day. We are always interested in meeting talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
-<a href="bohTower.jpg" title="We love to have fun as a team.">
-<img src="bohTower.jpg" alt="We love to have fun as a team."></a>
+<a href="bw.jpg" title="We love to have fun as a team.">
+<img src="bw.jpg" alt="We love to have fun as a team."></a>
 <a href="team_2018.jpg" title="We love to have fun as a team.">
 <img src="team_2018.jpg" alt="We love to have fun as a team."></a>
 <a href="escape1.png" title="We love to have fun as a team.">
@@ -17,7 +17,7 @@ We are always looking for talented engineers who want to come work with us. We h
 
 * Language Specific Agent Engineers: We have opportunities for engineers who want to get under the covers of languages such as Java, C#, NodeJS, PHP, Go, Ruby and Python. 
 * Front-End Development: Our UI is growing as our feature set expands. We are always interested in JavaScript enthusiasts. Today we specialize in AngularJS and Cordova. Tomorrow, maybe a swap to EmberJS or ReactJS. 
-* Full-Stack Development: We've got data and have to scale to millions of transactions per minute. What's cooler than that? We love Java enthusiasts who like Spring, Hibernate, MySQL, Redis, ZooKeerp and tons of other fun technologieis that make up our stack.
+* Full-Stack Development: We've got data and have to scale to millions of transactions per minute. What's cooler than that? We love Java enthusiasts who like Spring, Hibernate, MySQL, Redis, ZooKeeper and tons of other fun technologies that make up our stack.
 * User Experience and Interaction Design: Designers make our product better and are valued immensely at Contrast. You have a lot of freedom and responsibility to navigate the future of our products.
 * Cloud Operations: Do you love automation? How about monitoring? Did we mention we scale our deployments to support millions of transactions?
 * Digital Content: Our product is becoming more complex and our capabilities are bountiful. We need someone with an eye for teaching and a pen/tablet for writing.

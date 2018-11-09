@@ -66,11 +66,10 @@ Provide an interface that instruments the application to answer the questions ab
 
 Bonus: Show metrics on the page or a separate app/webpage
 
-Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for .NET. 
+Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for .NET or Java. 
 
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
-| Java     | Spring                          | Hibernate                 | [WebGoat](https://github.com/WebGoat/WebGoat), [Sakai](https://sakaiproject.org/try-sakai) |
 | NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
 | Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
@@ -82,6 +81,36 @@ Note: you only have to pick one language and that language should be the one tha
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 Include the [Travis build badge](https://travis-ci.com/) in your README to show status.
 
+### Java Instrumentation Engineer Project
+
+We have a very specific project for Java agent engineer candidates. For any applicant wanting to work on the Contrast Java agent, this project is the 2018 required project.
+
+The project for the Java Agent Software Engineer is to create a metric-gathering extension for a web application. This "extension" should gather metrics about requests and responses served by the application and the candidate is encouraged to design this extension such that it is decoupled from the web application.
+
+**Getting Started**
+
+1. Create a small Java web application with a few test pages. 
+2. Implement a metric-gathering library in Java that satisfies the requirements below and extend your web application with it.
+
+**Project Requirements**
+
+* Request Time: measure time spent between when the application starts to process the request and the time when the application sends the response to the client.
+* Response Sizes: measure the size of the HTTP response body in bytes.
+* Metrics: Calculate minimum, average, and maximum for Request Time and Response Size.
+* Identifier: Add a unique identifier to every response via an HTTP header.
+* Implement a page that will display the metrics gathered by the extension. The display should include minimum, average, and maximum of both Request Time and Response Size. 
+* Bonus/Optional: Provide a front-end UI that allows users to look up historical request time/response size by unique identifier.
+* Integrate with CI 
+* Write unit tests
+* Write a README, project that explains what you built, why you built it, how to deploy it up and how to use it.
+* Use a CI Pipeline to compile, build, test and report in Travis CI which is free for any Open Source project in GitHub Include the Travis build badgein your README to show status.
+    
+**Project Constraints**
+
+* Your web application should store state in memory and not in a separate database.
+* Your metric-gathering extension should be platform agnostic when possible.
+
+Goals: We are interested in how you write well-structured, well-tested code that needs to interact with shared mutable state. Therefore we encourage you to implement your own metric-gathering rather than use any metric-gathering capability provided by your web application framework "out of the box". Our review's focus will be on the metric-gathering extension and not on the web application.
 
 ### .NET Instrumentation Engineer Project
 

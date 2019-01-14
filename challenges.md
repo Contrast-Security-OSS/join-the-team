@@ -42,16 +42,14 @@ Additional requirements as part of our craftsmanship initiative:
 * Integration tests of your service layer
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 
-## Language Agent Developer Project 
+## Node.js Agent Developer Project 
 Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
  **This project takes can take upwards of 8-10 hours**. 
 
-For this project we are asking that you build the beginnings of a language based agent. The agent will simply have to be configured into the runtime of a web application and perform some very basic instrumentation. We recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
+For this project we are asking that you build the beginnings of a Node.js agent . The agent will simply have to be configured into the runtime of a Express (or Hapi) application and perform some very basic instrumentation. We recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
-You have the option of finding an Open Source web application leveraging one of the language frameworks below depending on which team you are applying. There are lots of open source web applications to choose from. All that we ask is that you choose one that can easily be setup and configured. Alternatively, if you don't really like any of the applications on GitHub, feel free to write your own based on the requirements from Project #2 for the Full Stack Engineer position.
-
-All projects need to: 
+**Project Requirements**
 
 * Count how many string objects were created for a single page request or RESTful request
 * Instrument the response to include a unique ID
@@ -66,20 +64,37 @@ Provide an interface that instruments the application to answer the questions ab
 
 Bonus: Show metrics on the page or a separate app/webpage
 
-Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for .NET or Java. 
+**Additional Requirements**
 
-| Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
-|----------|---------------------------------|---------------------------|-----------------------------------|
-| NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
-| Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
-| Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
-
-*Additional Requirements*
 * Unit tests
-* Integration tests of your service layer
 * Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. 
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 Include the [Travis build badge](https://travis-ci.com/) in your README to show status.
+
+### Python Instrumentation Engineer Project
+
+For this project we are asking that you build a minimalist version of an Application Performance Monitoring (APM) library for Django (or Flask or Pyramid). The middleware should get the time that the request enters the middleware, the time that it leaves the middleware, request path, the parameter list, the MD5 hash value of the rendered output, and the current thread and process ids. This should be appended to a CSV file. The location and name of the file should be configurable by the user of the library. To make it interesting the agent, optionally, should do its MD5 calculation in compiled C or Rust code.
+
+**Getting Started**
+
+1. Create a library that can be added to a Django project.
+2. Add the library to an open source Django project and generate a performance metrics CSV file.
+
+**Project Requirements**
+
+* The Django (or Flask or Pyramid) middleware should generate a CSV file with the following fields:
+  * Request Time: the timestamp when the request enters the middleware
+  * Response Time: the timestamp when the request leaves the middleware
+  * Elapsed Time: the time betwen request and response
+  * Path: the URI of the request
+  * Params: a semi-colon delimited list of GET parameter keys
+  * MD5: the hashed value of the response body
+  * Process ID: the process ID of the current request
+  * Thread ID: the thread ID of the current request
+* The filename and path of the generated CSV file should be configurable by the user of the library
+* Optional: generate the MD5 hash in C or other compiled lanaguage (e.g. C++, Rust)
+* Write unit tests.
+* Write a README that explains what you built and how to add it to an application.
 
 ### Java Instrumentation Engineer Project
 

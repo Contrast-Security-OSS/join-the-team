@@ -1,12 +1,12 @@
 # Join the Team
 At Contrast, our goal is the make the Internet safer day by day. We are always interested in meeting talented and creative technologists who share this goal. We've built some amazing technology thus far and are shaking up the way the world looks at application security. We know that our products can get better with new voices and ideas.
 
-<a href="bw.jpg" title="We love to have fun as a team.">
-<img src="bw.jpg" alt="We love to have fun as a team."></a>
-<a href="team_2018.jpg" title="We love to have fun as a team.">
-<img src="team_2018.jpg" alt="We love to have fun as a team."></a>
-<a href="escape1.png" title="We love to have fun as a team.">
-<img src="escape1.png" alt="We love to have fun as a team."></a>
+<a href="images/bw.jpg" title="We love to have fun as a team.">
+<img src="images/bw.jpg" alt="We love to have fun as a team."></a>
+<a href="images/team_2018.jpg" title="We love to have fun as a team.">
+<img src="images/team_2018.jpg" alt="We love to have fun as a team."></a>
+<a href="images/escape1.png" title="We love to have fun as a team.">
+<img src="images/escape1.png" alt="We love to have fun as a team."></a>
 
 Are you looking to make a difference? Are you a problem solver, but want to be challenged with complex and interesting problems. Do you believe the best work is the result of finding the simplest solution to complex challenges? Do you long to be an early contributor to a product and a company culture? Do you ever wish you were there in the early days of these startups everyone is talking about?
 

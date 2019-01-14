@@ -66,12 +66,11 @@ Provide an interface that instruments the application to answer the questions ab
 
 Bonus: Show metrics on the page or a separate app/webpage
 
-Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for .NET or Java. 
+Note: you only have to pick one language and that language should be the one that you are applying for. See below for further instructions for Ruby, .NET or Java. 
 
 | Language | framework                       | Use of ORM                | Sample Web Application (Example)  |
 |----------|---------------------------------|---------------------------|-----------------------------------|
 | NodeJS   | express                         | Sequelize                 | [NodeGoat](https://github.com/OWASP/NodeGoat), [Contrast Node App](https://github.com/Contrast-Security-OSS/NodeTestBench) |
-| Ruby     | Rails                           | Active Record             | [RailsGoat](https://github.com/OWASP/railsgoat), [Canvas](https://github.com/instructure/canvas-lms) |
 | Python   | Django or Flask                 | Django ORM or SQL Alchemy | [Sample LMS in Flask](https://github.com/adeora/Python-LMS), [Graphite](https://github.com/graphite-project/graphite-web) |
 
 *Additional Requirements*
@@ -80,6 +79,32 @@ Note: you only have to pick one language and that language should be the one tha
 * Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. 
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 Include the [Travis build badge](https://travis-ci.com/) in your README to show status.
+
+### Ruby Instrumentation Engineer Project
+
+For this project we are asking that you build a minimalist version of an Application Performance Monitoring (APM) library for Ruby on Rails. The middleware should get the time that the request enters the middleware, the time that it leaves the middleware, request path, the parameter list, the MD5 hash value of the rendered output, and the current thread and process ids. This should be appended to a CSV file. The location and name of the file should be configurable by the user of the Gem. To make it interesting, the project should add itself to the hosting Ruby on Rails application using Railties *AND* the agent, optionally, should do its MD5 calculation in compiled C or Rust code.
+
+**Getting Started**
+
+1. Create a Gem that can be added to a Ruby on Rails project.
+2. Add the Gem to an open source Ruby on Rails project (RedMine, Discourse, etc) and generate a performance metrics CSV file.
+
+**Project Requirements**
+
+* The Rack middleware should be implemented as a [Railtie](https://api.rubyonrails.org/classes/Rails/Railtie.html)
+* The middleware should generate a CSV file with the following fields:
+  * Request Time: the timestamp when the request enters the middleware
+  * Response Time: the timestamp when the request leaves the middleware
+  * Elapsed Time: the time betwen request and response
+  * Path: the URI of the request
+  * Params: a semi-colon delimited list of GET parameters
+  * MD5: the hashed value of the response body
+  * Process ID: the process ID of the current request
+  * Thread ID: the thread ID of the current request
+* The filename and path of the generated CSV file should be configurable by the user of the Gem
+* Optional: generate the MD5 hash in C or Rust ([Helix](https://github.com/tildeio/helix) is an option).
+* Write unit tests in RSpec and, optionally, add add it to Travis CI.
+* Write a README that explains what you built and how to use it.
 
 ### Java Instrumentation Engineer Project
 

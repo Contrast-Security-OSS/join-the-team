@@ -96,7 +96,7 @@ For this project we are asking that you build a minimalist version of an Applica
 * Write unit tests.
 * Write a README that explains what you built and how to add it to an application.
 
-Goals: We are interest in how you write idomatic and well-tested python code in a library that could be shared among many teams, particularl when come of the logic is implemented in not-python code. `virtualenv` is your friend if you want to check for both 2.7 and 3.x Python compatibility.
+Goals: We are interested in how you write idiomatic and well-tested python code in a library that could be shared among many teams, particularly when some of the logic is implemented in not-python code. `virtualenv` is your friend if you want to check for both 2.7 and 3.x Python compatibility.
 
 ### Ruby Instrumentation Engineer Project
 
@@ -124,7 +124,7 @@ For this project we are asking that you build a minimalist version of an Applica
 * Write unit tests in RSpec and, optionally, add add it to Travis CI.
 * Write a README that explains what you built and how to use it.
 
-Goals: We are interested in how you write idomatic and well-tested ruby code in a gem that could be shared among many Ruby on Rails projects particularly when some of the logic must be implemented in non-ruby code. `rvm` or `rbenv` is your friend if you want to test in multiple ruby versions.
+Goals: We are interested in how you write idiomatic and well-tested ruby code in a gem that could be shared among many Ruby on Rails projects particularly when some of the logic must be implemented in non-ruby code. `rvm` or `rbenv` is your friend if you want to test in multiple ruby versions.
 
 ### Java Instrumentation Engineer Project
 

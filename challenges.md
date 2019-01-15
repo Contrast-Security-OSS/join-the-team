@@ -43,11 +43,15 @@ Additional requirements as part of our craftsmanship initiative:
 * CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
 
 ## Node.js Agent Developer Project 
-Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting. They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
+Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting.
+They must want to explore the internals of the language and the engine the language runs within. To really be successful you have to be willing
+to "hack" the language you are working. Each of the languages below provides an interface to capture a bevy of instrumentation from your web application. 
 
  **This project takes can take upwards of 8-10 hours**. 
 
-For this project we are asking that you build the beginnings of a Node.js agent . The agent will simply have to be configured into the runtime of a Express (or Hapi) application and perform some very basic instrumentation. We recommend that you look at existing APM technology like New Relic, AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
+For this project we are asking that you build the beginnings of a Node.js agent . The agent will simply have to be configured into the runtime of a
+Express (or Hapi) application and perform some very basic instrumentation. We recommend that you look at existing APM technology like New Relic, 
+AppDynamics or dynaTrace for inspiration. If you are familiar with an APM agent, then you will quickly learn how to solve a basic agent instrumentation effort.
 
 **Project Requirements**
 
@@ -83,10 +87,6 @@ For this project we are asking that you build a minimalist version of an Applica
 **Project Requirements**
 
 * The Django (or Flask or Pyramid) middleware should generate a CSV file with the following fields:
-  * Request Time: the timestamp when the request enters the middleware
-  * Response Time: the timestamp when the request leaves the middleware
-  * Elapsed Time: the time betwen request and response
-  * Path: the URI of the request
   * Params: a semi-colon delimited list of GET parameter keys
   * MD5: the hashed value of the response body
   * Process ID: the process ID of the current request
@@ -95,6 +95,36 @@ For this project we are asking that you build a minimalist version of an Applica
 * Optional: generate the MD5 hash in C or other compiled lanaguage (e.g. C++, Rust)
 * Write unit tests.
 * Write a README that explains what you built and how to add it to an application.
+
+Goals: We are interest in how you write idomatic and well-tested python code in a library that could be shared among many teams, particularl when come of the logic is implemented in not-python code. `virtualenv` is your friend if you want to check for both 2.7 and 3.x Python compatibility.
+
+### Ruby Instrumentation Engineer Project
+
+For this project we are asking that you build a minimalist version of an Application Performance Monitoring (APM) library for Ruby on Rails. The middleware should get the time that the request enters the middleware, the time that it leaves the middleware, request path, the parameter list, the MD5 hash value of the rendered output, and the current thread and process ids. This should be appended to a CSV file. The location and name of the file should be configurable by the user of the Gem. To make it interesting, the project should add itself to the hosting Ruby on Rails application using Railties *AND* the agent, optionally, should do its MD5 calculation in compiled C or Rust code.
+
+**Getting Started**
+
+1. Create a Gem that can be added to a Ruby on Rails project.
+2. Add the Gem to an open source Ruby on Rails project (RedMine, Discourse, etc) and generate a performance metrics CSV file.
+
+**Project Requirements**
+
+* The Rack middleware should be implemented as a [Railtie](https://api.rubyonrails.org/classes/Rails/Railtie.html)
+* The middleware should generate a CSV file with the following fields:
+  * Request Time: the timestamp when the request enters the middleware
+  * Response Time: the timestamp when the request leaves the middleware
+  * Elapsed Time: the time betwen request and response
+  * Path: the URI of the request
+  * Params: a semi-colon delimited list of GET parameters
+  * MD5: the hashed value of the response body
+  * Process ID: the process ID of the current request
+  * Thread ID: the thread ID of the current request
+* The filename and path of the generated CSV file should be configurable by the user of the Gem
+* Optional: generate the MD5 hash in C or Rust ([Helix](https://github.com/tildeio/helix) is an option).
+* Write unit tests in RSpec and, optionally, add add it to Travis CI.
+* Write a README that explains what you built and how to use it.
+
+Goals: We are interested in how you write idomatic and well-tested ruby code in a gem that could be shared among many Ruby on Rails projects particularly when some of the logic must be implemented in non-ruby code. `rvm` or `rbenv` is your friend if you want to test in multiple ruby versions.
 
 ### Java Instrumentation Engineer Project
 
@@ -161,7 +191,7 @@ For this project, you have the opportunity to take a relatively well-known digit
 
 We want to see your understanding and application of UX principles by demonstrating your process from concept to final solution.
 
-<a href="UX.png" title="UX"><img src="UX.png" alt="UX."></a>
+<a href="images/UX.png" title="UX"><img src="images/UX.png" alt="UX."></a>
 
 Upon completion of the above, please send us your collection of artifacts and feel free to use a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc. if you'd like. Happy designing!
 

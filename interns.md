@@ -1,13 +1,13 @@
 ## The Contrast Internship Experience
 [Contrast Security](https://stackoverflow.com/jobs/companies/contrast-security) offers a Silicon Valley like-experience from the 4th floor of the majestic Brown's Wharf in the Fells Point neighborhood of Baltimore, Maryland. Interns will feel right at home working side by side with a highly collaborative group of engineering professionals. Lunch is provided daily, as are snacks and drinks. You will definitely get the chance to experience the fast pace of startup life.
 
-<a href="2019Interns.jpg" title="We love to have fun as a team.">
-<img src="2019Interns.jpg" alt="We love to have fun as a team.">
+<a href="images/2018Interns.jpg" title="We love to have fun as a team.">
+<img src="images/2018Interns.jpg" alt="We love to have fun as a team.">
 </a>
-<a href="2017Interns.png" title="We love to have fun as a team.">
-<img src="2017Interns.png" alt="We love to have fun as a team.">
-<a href="interns.jpg" title="We love to have fun as a team.">
-<img src="interns.jpg" alt="We love to have fun as a team.">
+<a href="images/2017Interns.png" title="We love to have fun as a team.">
+<img src="images/2017Interns.png" alt="We love to have fun as a team.">
+<a href="images/interns.jpg" title="We love to have fun as a team.">
+<img src="images/interns.jpg" alt="We love to have fun as a team.">
 </a>
 </a>
 

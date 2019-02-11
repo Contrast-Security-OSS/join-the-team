@@ -3,8 +3,8 @@ At Contrast, our goal is the make the Internet safer day by day. We are always i
 
 <a href="images/bw.jpg" title="We love to have fun as a team.">
 <img src="images/bw.jpg" alt="We love to have fun as a team."></a>
-<a href="images/team_2018.jpg" title="We love to have fun as a team.">
-<img src="images/team_2018.jpg" alt="We love to have fun as a team."></a>
+<a href="images/teamOffSite2019.jpg" title="We love to have fun as a team.">
+<img src="images/teamOffSite2019.jpg" alt="We love to have fun as a team."></a>
 <a href="images/escape1.png" title="We love to have fun as a team.">
 <img src="images/escape1.png" alt="We love to have fun as a team."></a>
 

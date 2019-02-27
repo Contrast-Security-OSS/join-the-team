@@ -159,21 +159,24 @@ Goals: We are interested in how you write well-structured, well-tested code that
 
 ### .NET Instrumentation Engineer Project
 
-We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2018 required project.
+We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2019 required project.
 
-Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. Therefore, we ask that candidates interested in working on our .NET agent instead implement an [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule). 
+Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. Therefore, we ask that candidates interested in working on our .NET agent instead implement either an ASP.NET [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule) or ASP.NET Core [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/). 
 
-The following project requirements are listed below: 
-* Add new content to HTML pages to display information gathered by your HttpModule.
+Your `IHttpModule` (or `Middleware`) should be designed so that it can be safely added to any ASP.NET (or ASP.NET Core) web application.
+
+Your project must satisfy the following requirements: 
 * Measure the total time spent processing the request. 
-* Measure the time spent by only the IHttpHandler for the request.
 * Measure the size of the response body in bytes. Calculate the minimum, average, and maximum responses seen so far. 
-* Provide a script to install your IHttpModule to all applications hosted on IIS.
+* Add new content to HTML pages to display information gathered by your project.
+* Ensure that your `IHttpModule` or `Middleware` is thread-safe and can correctly handle multiple concurrent requests.
+* Handle multiple encodings and different types of pages.
+* Include a small web application that demonstrates the behavior of your `IHttpModule` (or `Middleware`.) This web application is *not* the focus of the project and you should feel free to use the web application template projects provided by Visual Studio.
 
 In addition, please make sure to do the following:
-* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) which is free for any Open Source project in GitHub
-* Automated test coverage
-* Make sure to write an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
+* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
+* Write automated tests 
+* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

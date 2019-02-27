@@ -176,7 +176,7 @@ Your project must satisfy the following requirements:
 In addition, please make sure to do the following:
 * Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
 * Write automated tests 
-* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the [AppVeyor build badge](https://www.appveyor.com/docs/status-badges/) in your README to show status.
+* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the AppVeyor or Azure DevOps build badge in your README to show status.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

@@ -171,12 +171,14 @@ Your project must satisfy the following requirements:
 * Add new content to HTML pages to display information gathered by your project.
 * Ensure that your `IHttpModule` or `Middleware` is thread-safe and can correctly handle multiple concurrent requests.
 * Handle multiple encodings and different types of pages.
+* Use server resources (i.e. memory and processor) efficiently.
 * Include a small web application that demonstrates the behavior of your `IHttpModule` (or `Middleware`.) This web application is *not* the focus of the project and you should feel free to use the web application template projects provided by Visual Studio.
 
 In addition, please make sure to do the following:
-* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
-* Write automated tests 
-* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the AppVeyor or Azure DevOps build badge in your README to show status.
+* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/).
+* Include unit and/or integration tests.
+* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the AppVeyor or Azure DevOps build badge in your README to show status. 
+* Your project's README should also outline future improvements you would like to make to the project.
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

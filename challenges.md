@@ -132,6 +132,8 @@ We have a very specific project for Java agent engineer candidates. For any appl
 
 The project for the Java Agent Software Engineer is to create a metric-gathering extension for a web application. This "extension" should gather metrics about requests and responses served by the application and the candidate is encouraged to design this extension such that it is decoupled from the web application.
 
+Note that to solve this problem, it is not necessary to create a javaagent. The goal of this project is to demonstrate an understanding of how a Java web framework handles the HTTP request and response lifecycle.
+
 **Getting Started**
 
 1. Create a small Java web application with a few test pages. 

@@ -13,7 +13,7 @@ We offer two options to the developer project. The first project is designed for
 You only have to complete one project. 
 
 ## Full Stack Web Application (UI and Service Layer Only Required)
-If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats and attacks. 
+If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats, and attacks. 
 
 As part of this project, we would like for you to build a simple, yet elegant application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). We ask that your UI contains at least:
 
@@ -21,7 +21,7 @@ As part of this project, we would like for you to build a simple, yet elegant ap
 * Grid control (aka...a table of data) to present the data presented in the map
 * Search of data to change the presentation in the map and grid.
 
-It should be a clean UI written in one of the recommended JS frameworks below. You can write the service layer in the language of your choice.
+It should be a clean UI written in one of the recommended JS frameworks below. The service layer should be written in Java.
 
 Feel free to use any of the these JavaScript frameworks:
 * Angular

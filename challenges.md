@@ -222,3 +222,32 @@ Candidates interested in becoming our first digital content strategist, we would
     - Tags for searchability and indexing
     - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
+# Integrations Developer
+
+We have three projects to choose from if you're applying to be an integrations developer at Contrast.
+
+Pick a project that appeals to you and follow the instructions. Commit often with quality commit messages and so that we can see your thought process as the project progresses.
+
+After submitting your project, you'll have a conversation with one of our engineers about your code, the decisions you made, things you liked, things you didn't, etc...
+
+Thanks for looking!
+
+### Add a Hook to a Cloud Foundry Buildpack
+
+Clone the repository [here](https://github.com/Contrast-Security-OSS/project-nodejs-buildpack) and follow the instructions in the README.
+
+### Reverse Engineer An API Endpoint
+
+Clone the repository [here](https://github.com/Contrast-Security-OSS/project-reverse-engineer) and follow the instructions in the README.
+
+### Write a Contrast Security Command Line Client
+
+**Setup**
+
+* Sign up for a [Contrast Security Community Edition]() account.
+* Onboard a web application [like WebGoat]() so it shows up in your list of Applications
+* Use WebGoat such that Vulnerabilities appear in your Vulnerabilities tab
+
+**Project**
+
+* In the language of your choice, write a command-line client that uses the [Contrast Security API]() to list vulnerabilites for an organization. (In the API, vulnerabilites are called Traces).

@@ -245,7 +245,7 @@ Clone the repository [here](https://github.com/Contrast-Security-OSS/project-rev
 **Setup**
 
 * Sign up for a [Contrast Security Community Edition](https://www.contrastsecurity.com/contrast-community-edition) account.
-* Onboard a web application so it appears in your list of Applications in Contrast Security. [WebGoat](https://github.com/WebGoat/WebGoat) is a good example. We have others in our [Github](https://github.com/Contrast-Security-OSS) repository.
+* Onboard a web application so it appears in your list of Applications in Contrast Security. [WebGoat](https://github.com/WebGoat/WebGoat) is a good sample Java project to onboard. We have others in our [Github](https://github.com/Contrast-Security-OSS) repository.
 * Use WebGoat such that Vulnerabilities appear in your Vulnerabilities tab
 
 **Project**

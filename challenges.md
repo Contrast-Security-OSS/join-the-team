@@ -250,4 +250,4 @@ Clone the repository [here](https://github.com/Contrast-Security-OSS/project-rev
 
 **Project**
 
-* In the language of your choice, write a command-line client that uses the [Contrast Security API]() to list vulnerabilites for an organization. (In the API, vulnerabilites are called Traces).
+* In the language of your choice, write a command-line client that uses the [Contrast Security API](https://api.contrastsecurity.com/) to list vulnerabilites for an organization. (In the API, vulnerabilites are called Traces).

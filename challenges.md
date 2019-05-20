@@ -226,7 +226,7 @@ Candidates interested in becoming our first digital content strategist, we would
 
 We have three projects to choose from if you're applying to be an integrations developer at Contrast.
 
-Pick a project that appeals to you and follow the instructions. Commit often with quality commit messages and so that we can see your thought process as the project progresses.
+Pick a project that appeals to you and follow the instructions. Commit often with quality commit messages so that we can see your thought process as the project progresses.
 
 After submitting your project, you'll have a conversation with one of our engineers about your code, the decisions you made, things you liked, things you didn't, etc...
 

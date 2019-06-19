@@ -236,10 +236,6 @@ Thanks for looking!
 
 Clone the repository [here](https://github.com/Contrast-Security-OSS/project-nodejs-buildpack) and follow the instructions in the README.
 
-### Reverse Engineer An API Endpoint
-
-Clone the repository [here](https://github.com/Contrast-Security-OSS/project-reverse-engineer) and follow the instructions in the README.
-
 ### Write a Contrast Security Command Line Client
 
 **Setup**

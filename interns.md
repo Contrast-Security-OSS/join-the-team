@@ -38,9 +38,9 @@ At the end of the internship the group presents their entire portfolio of work t
 
 
 ## Applying to the Internship Program
-The fastest and easiest way to apply to our program is to apply online [here](https://jobs.lever.co/contrastsecurity/ee23b08c-afe0-47d9-9811-f571eb63c82d). Attach a PDF version of your resume and a short cover letter as to which role you would like to apply. Make sure to put in the subject "Contrast Security Engineering Internship Program". Upon receiving your resume, someone on the team will get back to you quickly. 
+The fastest and easiest way to apply to our program is to apply online [here](https://jobs.lever.co/contrastsecurity/035fee59-5146-4bb6-8d55-7a4a20c43d5b). Attach a PDF version of your resume and a short cover letter as to which role you would like to apply. Make sure to put in the subject "Contrast Security Engineering Internship Program". Upon receiving your resume, someone on the team will get back to you quickly. 
 
-If your school is using Handshake, you can apply via this [link](https://app.joinhandshake.com/jobs/1750818) or feel free to use our link from [Lever](https://jobs.lever.co/contrastsecurity/ee23b08c-afe0-47d9-9811-f571eb63c82d).
+If your school is using Handshake, you can apply via this [link](https://app.joinhandshake.com/jobs/2947586) or feel free to use our link from [Lever](https://jobs.lever.co/contrastsecurity/035fee59-5146-4bb6-8d55-7a4a20c43d5b).
 
 
 

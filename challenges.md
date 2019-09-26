@@ -159,28 +159,41 @@ Note that to solve this problem, it is not necessary to create a javaagent. The 
 
 Goals: We are interested in how you write well-structured, well-tested code that needs to interact with shared mutable state. Therefore we encourage you to implement your own metric-gathering rather than use any metric-gathering capability provided by your web application framework "out of the box". Our review's focus will be on the metric-gathering extension and not on the web application.
 
+
+
 ### .NET Instrumentation Engineer Project
 
 We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2019 required project.
 
-Instrumenting .NET applications requires implementation of a profiler written in C++ which we consider too large for an interview project. Therefore, we ask that candidates interested in working on our .NET agent instead implement either an ASP.NET [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule) or ASP.NET Core [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/). 
+We ask that candidates interested in working on our .NET agent to implement either a metrics gathering extension, either as an ASP.NET Core [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/) or an ASP.NET [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule).
 
-Your `IHttpModule` (or `Middleware`) should be designed so that it can be safely added to any ASP.NET (or ASP.NET Core) web application.
+Your `Middleware` (or `IHttpModule`) extension should be designed so that it can be safely added to any ASP.NET Core (or ASP.NET) web application.
 
-Your project must satisfy the following requirements: 
-* Measure the total time spent processing the request. 
-* Measure the size of the response body in bytes. Calculate the minimum, average, and maximum responses seen so far. 
-* Add new content to HTML pages to display information gathered by your project.
-* Ensure that your `IHttpModule` or `Middleware` is thread-safe and can correctly handle multiple concurrent requests.
-* Handle multiple encodings and different types of pages.
-* Use server resources (i.e. memory and processor) efficiently.
-* Include a small web application that demonstrates the behavior of your `IHttpModule` (or `Middleware`.) This web application is *not* the focus of the project and you should feel free to use the web application template projects provided by Visual Studio.
+**Project Requirements:**
 
-In addition, please make sure to do the following:
-* Integrate with a free CI Pipeline to compile, build, test and report in [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/).
+* Request Time Metric: Total time spent processing the current request.
+* Response Size Metrics : Size of the response in bytes of the current request.  Also please calculate the Minimum, Maximum and Average response sizes seen so far.
+* For HTML pages add the above Request Time and Response Time metrics to the response so they can be viewed directly on the page.
 * Include unit and/or integration tests.
-* Include an amazing README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it. Include the AppVeyor or Azure DevOps build badge in your README to show status. 
-* Your project's README should also outline future improvements you would like to make to the project.
+* Integrate with CI to compile, build, test your project.  You may use [AppVeyor CI](https://www.appveyor.com/) or [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/) or another free CI Pipeline service of your choice.
+* Include a small web application that demonstrates the behavior of your extension.  This web application is *not* the focus of the project and it needs to merely demonstrate metrics being added to its pages.  You should feel free to use the web application template projects provided by Visual Studio.
+* Write a README in your GitHub project that explains what you built, why you built it, how to deploy it up and how to use it.  You can also outline any future improvements you would like to make to the project.
+
+**Project Contstraints:**
+
+* Your extension can safely handle multiple encodings and different types of pages.
+* Your extension should store state in memory and not in a separate database.
+* Your extension is thread-safe and can correctly handle multiple concurrent requests.
+* Your extension uses server resources (i.e. memory and processor) efficiently.
+
+**Bonus:**
+
+* Include the AppVeyor or Azure DevOps build badge in your README to show status. 
+* Provide a way to see metrics for non-HTML pages
+
+**Project Goals:**  We are interested in how you write well-structured, well-tested code that needs to safely interact and not adversely affect unknown third-party applications.  This is similar to the kind of work you would do as part of an agent team at Contrast.  
+Your extension needs to implement its own metric gathering rather than rely on any metric gathering capability provided by your web application framework or third party component.  Our review's focus will be on your extension and not on the web application.
+
 
 
 # Site Reliability Engineering: The Cloud Operations...Performance and Reliability

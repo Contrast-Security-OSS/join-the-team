@@ -1,5 +1,5 @@
 # About the Code Challenges
-Welcome to the Contrast Code Challenges project page. Code challenges are an important part of our recruiting and hiring process. Most engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team. Some candidates prefer a technical interview and some prefer reviewing a past project. Our goal is to accommodate the candidat's preference.
+Welcome to the Contrast Code Challenges project page. Code challenges are an important part of our recruiting and hiring process. Most engineer/developer, designer or technologist that works at Contrast, full-time or intern submits a code challenge as part of the process to join the team. Some candidates prefer a technical interview and some prefer reviewing a past project. Our goal is to accommodate the candidate's preference.
 
 The code challenge is designed to give candidates the ability to showcase their skills in a low stress, extended time model rather than in a conference room as part of a technical interview. Be aware that each code challenge can take longer than a day to complete, hence we give you ample time to work it. We believe that technologists work best in the comfort of their own home, coffee shop or favorite place to code or design.
 

@@ -192,12 +192,11 @@ Your extension needs to implement its own metric gathering rather than rely on a
 
 
 
-# Site Reliability Engineering: The Cloud Operations...Performance and Reliability
+# Cloud Engineering Project:
 
 At Contrast we like to play hard, work hard, and automate our Saas environment end to end. We made this project so you can showcase your skills and give us a better idea of your individual talents.
 
-Take a look at this [project here](https://github.com/Contrast-Security-OSS/ops-hire-project). You will need to clone the repo and send it our way when you are finished.
-
+Take a look at this [project here](https://github.com/Contrast-Security-OSS/infrastructure-hire-project). You will need to clone the repo and send it our way when you are finished.
 
 
 # Integrations Developer

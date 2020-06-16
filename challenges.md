@@ -203,37 +203,6 @@ At Contrast we like to play hard, work hard, and automate our Saas environment e
 Take a look at this [project here](https://github.com/Contrast-Security-OSS/ops-hire-project). You will need to clone the repo and send it our way when you are finished.
 
 
-# UX/Designer Project: For the UX Engineer and Interaction Designer
-
-Bad UX is everywhere. There are hundreds of touchpoints out there that could use a little UX love. We find ourselves frustrated by door handles, interfaces, iTunes, automated checkouts, road layouts...the list goes on.
-
-For this project, you have the opportunity to take a relatively well-known digital site or application with a less-than-stellar customer experience, create a critique of the app, and present some possible solutions with at least one polished high-fidelity mockup. Woo! You have free reign to touch on the information architecture (IA), useful additional features, workflows, terminology, interactions, visual design, etc.
-
-We want to see your understanding and application of UX principles by demonstrating your process from concept to final solution.
-
-<a href="images/UX.png" title="UX"><img src="images/UX.png" alt="UX."></a>
-
-Upon completion of the above, please send us your collection of artifacts and feel free to use a portfolio storage tool like Behance, [Invision](https://www.invisionapp.com), etc. if you'd like. Happy designing!
-
-# UX/Docs Project: For the Digital Content Strategist
-Our customer facing documentation is 100% open sourced on [Github](https://docs.contrastsecurity.com/). We have a strong belief that our documentation will get better with input and feedback from customers and members of the community, hence we've broken down barriers for the community to contribute to our content.
-
-Our content has been built by members of our team to date. There hasn't been a single professional author for any of our documents. We know our documentation could be vastly improved.
-
-Candidates interested in becoming our first digital content strategist, we would like for you to do a couple of tasks designed to improve our OpenDocs, as we call it.
-
-* Provide an editorial review of the [OpenDocs web site](https://docs.contrastsecurity.com). This can be a very free-form analysis of the site. It should be less than 1000 words. Make sure to include comments on the following:
-    - Searchability of Content
-    - Structure and Organization of Content
-    - Use of Images and Visualizations
-    - General Grammar and Content Value
-* Make (3) recommendations or improvements that would immediately add value to our user community.
-* Submit a writing sample. The writing sample could be completely unrelated to our content on OpenDocs. The writing sample should describe how a user of a web application accomplishes a particular task or set of tasks. It should include:
-    - Overview of the task from the end-user's perspective.
-    - Steps for the user to execute.
-    - Appropriate visual aids
-    - Tags for searchability and indexing
-    - Please write the sample in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 # Integrations Developer
 

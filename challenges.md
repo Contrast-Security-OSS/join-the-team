@@ -12,7 +12,7 @@ We offer two options to the developer project. The first project is designed for
 
 You only have to complete one project.
 
-## Full Stack Web Application (UI and Service Layer Only Required)
+## Full Stack Web Application (UI and Service Layer Only)
 If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats, and attacks.
 
 As part of this project, we would like for you to build a simple, yet elegant application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). We ask that your UI contains at least:
@@ -128,9 +128,7 @@ Goals: We are interested in how you write idiomatic and well-tested ruby code in
 
 ### Java Instrumentation Engineer Project
 
-We have a very specific project for Java agent engineer candidates. For any applicant wanting to work on the Contrast Java agent, this project is the 2018 required project.
-
-The project for the Java Agent Software Engineer is to create a metric-gathering extension for a web application. This "extension" should gather metrics about requests and responses served by the application and the candidate is encouraged to design this extension such that it is decoupled from the web application.
+We have a very specific project for Java agent engineer candidates. The project for the Java Agent Software Engineer is to create a metric-gathering extension for a web application. This "extension" should gather metrics about requests and responses served by the application and the candidate is encouraged to design this extension such that it is decoupled from the web application.
 
 Note that to solve this problem, it is not necessary to create a javaagent. The goal of this project is to demonstrate an understanding of how a Java web framework handles the HTTP request and response lifecycle.
 
@@ -163,9 +161,7 @@ Goals: We are interested in how you write well-structured, well-tested code that
 
 ### .NET Instrumentation Engineer Project
 
-We have a very specific project just for .NET agent engineers. For any applicant wanting to work on our .NET platform, this project is the 2019 required project.
-
-We ask that candidates interested in working on our .NET agent to implement either a metrics gathering extension, either as an ASP.NET Core [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/) or an ASP.NET [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule).
+We have a very specific project just for .NET agent engineers. We ask that candidates interested in working on our .NET agent to implement either a metrics gathering extension, either as an ASP.NET Core [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/) or an ASP.NET [IHttpModule](https://docs.microsoft.com/en-us/dotnet/api/system.web.ihttpmodule).
 
 Your `Middleware` (or `IHttpModule`) extension should be designed so that it can be safely added to any ASP.NET Core (or ASP.NET) web application.
 

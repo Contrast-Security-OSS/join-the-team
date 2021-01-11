@@ -8,9 +8,44 @@ Most importantly we do the challenge for you. Anyone submitting a code challenge
 One last important item...please do not reference Contrast on your project as we do not want to introduce the possibility of someone plagiarizing your work. We rotate projects several times a year.
 
 # Developer Projects
-We offer two options to the developer project. The first project is designed for the full stack engineer who likes to design slick, web interfaces. The second project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
+We offer a few options to the developer project. The first project is designed for the dedicated UI engineer. The second is for the full stack engineer who likes to design slick, web interfaces. The third project is more suited for the backend developer who still values interactivity with users of the application, but in a different modality.
 
 You only have to complete one project.
+
+## React UI Developer Project 
+
+### Requirements
+* Musts
+  * Built in react
+  * Some sort of unit testing
+* Nice to haves
+  * Typescript
+  * Integration tests
+  * Continuous integration.
+
+The user wants you to create a web application that will allow them to compare up to 3 stock tickers at once. They want to be able to search for companies based not just based on symbols but also names. For example the user could search for PLTR and Palantir. 
+
+A data source you could use is https://www.alphavantage.co/documentation/ (Free API key available). Here are a few user stories that the customer wants:
+
+* As a user, I want to be able to search for a company by symbol or full name so that I can be able to search for ‘AAL’ and ‘airlines’. 
+
+* As a user, I want to be able to pin/bookmark up to 3 results to my view so that I can search for companies and add them to the view without losing track of companies I am interested in. 
+
+* As a user, I want to be able to see up to 3 pinned columns so that I can draw direct comparisons across the data sets. 
+
+* As a user, I want to be able to see the graphical representation of a company’s EPS earning or cash flow and be able to compare it across the 3 selected companies. 
+
+APIs:
+
+https://www.alphavantage.co/query?function=SYMBOL_SEARCH&keywords=BA&apikey=demo
+
+https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=demo
+
+https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo
+
+Loose mock up of how it should look.
+<a href="images/react-project-mock.jpg" title="Loose mock up of how it should look. ">
+<img src="images/react-project-mock.jpg" alt="Loose mock up of how it should look. "></a>
 
 ## Full Stack Web Application (UI and Service Layer Only)
 If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats, and attacks.

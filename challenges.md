@@ -44,8 +44,8 @@ https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=demo
 https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo
 
 Loose mock up of how it should look.
-<a href="images/react-project-mock.jpg" title="Loose mock up of how it should look. ">
-<img src="images/react-project-mock.jpg" alt="Loose mock up of how it should look. "></a>
+<a href="images/react-project-mock.png" title="Loose mock up of how it should look. ">
+<img src="images/react-project-mock.png" alt="Loose mock up of how it should look. "></a>
 
 ## Full Stack Web Application (UI and Service Layer Only)
 If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats, and attacks.

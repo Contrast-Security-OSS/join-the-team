@@ -187,8 +187,9 @@ Note that to solve this problem, it is not necessary to create a javaagent. The 
 
 **Project Constraints**
 
-* Your web application should store state in memory and not in a separate database.
-* Your metric-gathering extension should be platform agnostic when possible.
+* Your web application should store state in memory and not in a database running in an external process. This helps us get your project running.
+* Your metric-gathering extension should manage its own state in-memory. More specifically, we want you to show us how to manage the metric-gathering state in thread-safe data structures vs how well you can use an in-memory database like HSQLDB.
+* Prefer building your metric-gathering extension on widely adopted specifications vs specific technologies. For example, we would prefer to see a metric-gathering extension implemented as a servlet filter vs a Tomcat valve implementation.
 
 Goals: We are interested in how you write well-structured, well-tested code that needs to interact with shared mutable state. Therefore we encourage you to implement your own metric-gathering rather than use any metric-gathering capability provided by your web application framework "out of the box". Our review's focus will be on the metric-gathering extension and not on the web application.
 

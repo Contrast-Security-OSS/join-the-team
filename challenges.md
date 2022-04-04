@@ -51,10 +51,10 @@ Loose mock up of how it should look.
 As part of this project, we would like for you to build a simple, yet elegant Spring backend application that would serve data to an imaginary UI that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). 
 
 Requirements
-* Spring Framework
-* Handle API Requests
-* Store and Retrieves Data
-* Unit Test
+* Uses the Spring Framework
+* Handles API requests for main functionality
+* Stores and retrieves data from a data source of your choice
+* Appropriate test coverage of main functionality (some combination of unit/component/integration tests recommended)
 
 We recommend that you identify one or more data feeds from one of these three sources.
 

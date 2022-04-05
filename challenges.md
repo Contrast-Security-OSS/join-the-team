@@ -47,23 +47,14 @@ Loose mock up of how it should look.
 <a href="images/react-project-mock.png" title="Loose mock up of how it should look. ">
 <img src="images/react-project-mock.png" alt="Loose mock up of how it should look. "></a>
 
-## Full Stack Web Application (UI and Service Layer Only)
-If you have made it this far then you've learned enough to know that [Contrast](https://www.contrastsecurity.com/) is an application and cyber security platform. We think of security in terms of vulnerabilities, threats, and attacks.
+## Java Backend Engineer
+As part of this project, we would like for you to build a simple, yet elegant Spring backend application that would serve data to an imaginary UI that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). 
 
-As part of this project, we would like for you to build a simple, yet elegant application that visualizes a security intelligence data feed (vulnerabilities or threat intelligence data). We ask that your UI contains at least:
-
-* Map if you are visualizing geo-location data that can zoom in/out
-* Grid control (aka...a table of data) to present the data presented in the map
-* Search of data to change the presentation in the map and grid.
-
-It should be a clean UI written in one of the recommended JS frameworks below. The service layer should be written in Java.
-
-Feel free to use any of the these JavaScript frameworks:
-* Angular
-* React
-* Vue
-* Meteor
-* Ember
+Requirements
+* Uses the Spring Framework
+* Handles API requests for main functionality
+* Stores and retrieves data from a data source of your choice
+* Appropriate test coverage of main functionality (some combination of unit/component/integration tests recommended)
 
 We recommend that you identify one or more data feeds from one of these three sources.
 
@@ -73,9 +64,9 @@ We recommend that you identify one or more data feeds from one of these three so
 
 Additional requirements as part of our craftsmanship initiative:
 * Make sure to write an amazing README in your GitHub project that explains what your built, why you built it, how to set it up and how to use it.
-* Unit tests
 * Integration tests of your service layer
-* CI Pipeline to compile, build, test and report in [Travis CI](https://travis-ci.com/) which is free for any Open Source project in GitHub
+* Github Actions 
+
 
 ## Node.js Agent Developer Project
 Our agent technology is the heart and soul of our product. Agent engineers need to be highly proficient in the language they are supporting.

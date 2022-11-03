@@ -251,3 +251,19 @@ Clone the repository [here](https://github.com/Contrast-Security-OSS/project-nod
 **Project**
 
 * In the language of your choice, write a command-line client that uses the [Contrast Security API](https://api.contrastsecurity.com/) to list vulnerabilites for an organization. (In the API, vulnerabilites are called Traces).
+
+
+# Test and Validation Project
+
+On the T&V team we build tools that our other teams can use to test Contrast. For this project, we'll be asking you to build a skeleton version of a tool that resembles one we maintain.
+
+
+### Requirements
+* Docker
+* Python 3
+
+
+### Instructions
+First, fork the repo [here](https://github.com/Contrast-Security-OSS/tandv-project). Follow the directions in the README and make sure to document your work! You'll be discussing it later with one or more engineers on our team.
+
+Finally, feel free to send any questions for us, we want to make sure the instructions are clear.
